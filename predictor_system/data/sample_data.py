@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import os
-from config.settings import EDUCATION_LEVELS, JOB_ROLES, LOCATIONS, GENDERS
+from config.settings import EDUCATION_LEVELS, JOB_ROLES, GENDERS
 
 def create_sample_data(n_samples=500, save_to_csv=False):
     """
@@ -23,7 +23,6 @@ def create_sample_data(n_samples=500, save_to_csv=False):
     # Categorical features
     education = np.random.choice(EDUCATION_LEVELS, n_samples)
     job_role = np.random.choice(JOB_ROLES, n_samples)
-    location = np.random.choice(LOCATIONS, n_samples)
     gender = np.random.choice(GENDERS, n_samples)
     
     # Generate salary based on features
@@ -42,20 +41,13 @@ def create_sample_data(n_samples=500, save_to_csv=False):
     role_factor[job_role == 'Analyst'] = 15000
     role_factor[job_role == 'HR'] = 10000
     
-    loc_factor = np.zeros(n_samples)
-    loc_factor[location == 'New York'] = 30000
-    loc_factor[location == 'San Francisco'] = 35000
-    loc_factor[location == 'Austin'] = 15000
-    loc_factor[location == 'Remote'] = 10000
-    loc_factor[location == 'India'] = 5000
-    
     age_factor = (age - 22) * 1000
     
     # Add some random noise
     noise = np.random.normal(0, 10000, n_samples)
     
     # Calculate final salary
-    salary = base_salary + exp_factor + edu_factor + role_factor + loc_factor + age_factor + noise
+    salary = base_salary + exp_factor + edu_factor + role_factor + age_factor + noise
     salary = np.round(salary).astype(int)
     
     # Create DataFrame
@@ -63,7 +55,6 @@ def create_sample_data(n_samples=500, save_to_csv=False):
         'YearsExperience': years_exp,
         'Education': education,
         'JobRole': job_role,
-        'Location': location,
         'Age': age,
         'Gender': gender,
         'Salary': salary

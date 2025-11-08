@@ -3,6 +3,7 @@ import time
 import pandas as pd
 from controllers.auth_controller import AuthController
 from controllers.admin_controller import AdminController
+from config.settings import RATE_INR_TO_VND, CURRENCY_SYMBOL_VND
 
 def display_admin_sidebar():
     """Display the admin navigation sidebar"""
@@ -188,86 +189,207 @@ def display_admin_model_management():
     display_admin_sidebar()
     
     st.title("Model Management")
-    st.write("Adjust model parameters and retrain the salary prediction model")
+    
+    # Get available model versions
+    versions = AdminController.get_available_versions()
+    
+    # Model version selection
+    st.subheader("Model Version Selection")
+    col1, col2 = st.columns([3, 1])
+    
+    with col1:
+        if versions:
+            st.info(f"Available model versions: {len(versions)}")
+            version_list = ['New Version'] + [f'Version {v}' for v in versions]
+            selected_version_str = st.selectbox(
+                "Select Model Version",
+                options=version_list,
+                index=0
+            )
+            selected_version = None if selected_version_str == 'New Version' else int(selected_version_str.split()[-1])
+        else:
+            st.warning("No trained models available. Creating new version.")
+            selected_version = None
+            
+    with col2:
+        if selected_version:
+            if st.button("Set as Active", use_container_width=True):
+                st.session_state.active_model_version = selected_version
+                st.success(f"Set version {selected_version} as active model")
+                st.rerun()
+                
+    # Display active model version
+    if hasattr(st.session_state, 'active_model_version'):
+        st.success(f"Active model version: {st.session_state.active_model_version}")
     
     # Get data from controller
     df = AdminController.get_employee_data()
         
     # Display data sample
     st.subheader("Training Data Sample")
-    st.dataframe(df.head(), use_container_width=True)
+    # Also show a VND-converted salary column for clarity (original dataframe remains unchanged)
+    df_display = df.copy()
+    if 'Salary' in df_display.columns:
+        try:
+            df_display['Salary_VND'] = (df_display['Salary'].astype(float) * RATE_INR_TO_VND).round().astype(int)
+        except Exception:
+            pass
+    st.dataframe(df_display.head(), use_container_width=True)
     
     # Model parameters section
     st.subheader("Random Forest Model Parameters")
     
+    # If a version is selected, get its parameters
+    if selected_version:
+        model_info = AdminController.get_model_parameters(selected_version)
+        if model_info:
+            st.info(f"Showing parameters for Version {selected_version}")
+            if 'created_at' in model_info:
+                st.write(f"Created: {model_info['created_at']}")
+            if 'feature_names' in model_info:
+                st.write(f"Features: {', '.join(model_info['feature_names'])}")
+            params = model_info.get('parameters', model_info)
+        else:
+            st.error(f"Could not load parameters for Version {selected_version}")
+            params = None
+    else:
+        params = None
+    
     col1, col2 = st.columns(2)
     
     with col1:
-        n_estimators = st.slider("Number of Trees", 50, 500, 100, 10)
-        max_depth = st.slider("Max Depth", 5, 50, 10, 1)
-        min_samples_split = st.slider("Min Samples Split", 2, 20, 2, 1)
+        n_estimators = st.slider("Number of Trees", 50, 500, 
+            params.get('n_estimators', 100) if params else 100, 10)
+        max_depth = st.slider("Max Depth", 5, 50, 
+            params.get('max_depth', 10) if params else 10, 1)
+        min_samples_split = st.slider("Min Samples Split", 2, 20, 
+            params.get('min_samples_split', 2) if params else 2, 1)
     
     with col2:
-        min_samples_leaf = st.slider("Min Samples Leaf", 1, 10, 1, 1)
-        # Updated options for max_features
-        max_features = st.selectbox("Max Features", ["sqrt", "log2", None])
-        random_state = st.number_input("Random State", 0, 100, 42, 1)
+        min_samples_leaf = st.slider("Min Samples Leaf", 1, 10, 
+            params.get('min_samples_leaf', 1) if params else 1, 1)
+        max_features = st.selectbox("Max Features", ["sqrt", "log2", None],
+            index=["sqrt", "log2", None].index(params.get('max_features', 'sqrt')) if params else 0)
+        random_state = st.number_input("Random State", 0, 100, 
+            params.get('random_state', 42) if params else 42, 1)
     
     # Train-test split parameters
     st.subheader("Train-Test Split")
     test_size = st.slider("Test Size", 0.1, 0.5, 0.2, 0.05)
     
-    # Button to train model
-    if st.button("Train Model", use_container_width=True):
-        with st.spinner("Training model..."):
-            # Prepare model parameters
-            params = {
-                'n_estimators': n_estimators,
-                'max_depth': max_depth,
-                'min_samples_split': min_samples_split,
-                'min_samples_leaf': min_samples_leaf,
-                'max_features': max_features,
-                'random_state': random_state,
-                'test_size': test_size
-            }
-            
-            # Train model and get metrics
-            metrics = AdminController.train_model(df, params)
-            
-            # Display metrics
-            st.subheader("Model Performance")
-            
-            col1, col2, col3 = st.columns(3)
-            
-            with col1:
-                st.metric("Mean Squared Error", f"{metrics['mse']:.2f}")
-            
-            with col2:
-                st.metric("Root Mean Squared Error", f"{metrics['rmse']:.2f}")
-            
-            with col3:
-                st.metric("R² Score", f"{metrics['r2']:.4f}")
-            
-            # Feature importance
-            st.subheader("Feature Importance")
-            st.dataframe(metrics['feature_importance'], use_container_width=True)
-            
-            # Plot feature importance
-            fig = AdminController.create_visualization(
-                metrics['feature_importance'], 
-                "Custom Plot", 
-                "Importance", 
-                "Feature", 
-                "Bar"
-            )
-            st.pyplot(fig)
-            
-            # Automatically save the model
-            if AdminController.save_model():
-                st.success("Model trained and saved successfully! It will now be used for predictions.")
+    # Initialize metrics variable
+    metrics = None
+    
+    # Model management buttons
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        train_button_text = "Train New Model" if not selected_version else f"Retrain Version {selected_version}"
+        if st.button(train_button_text, use_container_width=True):
+            with st.spinner("Training model..."):
+                # Prepare model parameters
+                params = {
+                    'n_estimators': n_estimators,
+                    'max_depth': max_depth,
+                    'min_samples_split': min_samples_split,
+                    'min_samples_leaf': min_samples_leaf,
+                    'max_features': max_features,
+                    'random_state': random_state,
+                    'test_size': test_size
+                }
+                
+                # Train model and get metrics
+                metrics = AdminController.train_model(df, params, save_as_version=selected_version)
+                
+                # Check if training was successful
+                if metrics and metrics.get('success', False):
+                    # Show success message
+                    st.success(metrics['message'])
+                    
+                    # Show model version info
+                    if 'version' in metrics:
+                        st.info(f"Model version: v{metrics['version']}")
+                        
+                        # Clear any cached version data
+                        if "version_list" in st.session_state:
+                            del st.session_state.version_list
+                            
+                        # If no active version is set, set this as active
+                        if not st.session_state.get('active_model_version'):
+                            st.session_state.active_model_version = metrics['version']
+                            st.info(f"Set as active model version")
+                    
+                    # Display metrics
+                    st.subheader("Model Performance")
+                    
+                    col1, col2, col3 = st.columns(3)
+                    
+                    with col1:
+                        st.metric("Mean Squared Error", f"{metrics['mse']:.2f}")
+                    
+                    with col2:
+                        st.metric("Root Mean Squared Error", f"{metrics['rmse']:.2f}")
+                    
+                    with col3:
+                        st.metric("R² Score", f"{metrics['r2']:.4f}")
+                    
+                    # Feature importance
+                    st.subheader("Feature Importance")
+                    st.dataframe(metrics['feature_importance'], use_container_width=True)
+                    
+                    # Plot feature importance
+                    if 'feature_importance' in metrics:
+                        fig = AdminController.create_visualization(
+                            metrics['feature_importance'], 
+                            "Custom Plot", 
+                            "Importance", 
+                            "Feature", 
+                            "Bar"
+                        )
+                        st.pyplot(fig)
+                    
+                    # Force refresh after short delay
+                    time.sleep(1)
+                    st.rerun()
+                elif metrics:
+                    st.error("Failed to save model. Check if you have write permissions to the model directory.")
+    
+    with col2:
+        if selected_version and selected_version_str != 'New Version':
+            # Store delete confirmation state in session state
+            if 'delete_confirm' not in st.session_state:
+                st.session_state.delete_confirm = False
+                
+            if not st.session_state.delete_confirm:
+                if st.button("Delete Version", use_container_width=True, type="secondary", key="delete_btn"):
+                    if st.session_state.get('active_model_version') == selected_version:
+                        st.error("Cannot delete the active model version. Please set another version as active first.")
+                    else:
+                        st.session_state.delete_confirm = True
+                        st.rerun()
             else:
-                st.warning("Model was trained but could not be saved to disk. It will be used for predictions in this session only.")
-
+                st.warning(f"Are you sure you want to delete Version {selected_version}?")
+                col1, col2 = st.columns(2)
+                with col1:
+                    if st.button("Yes, Delete", type="primary", use_container_width=True):
+                        success = AdminController.delete_model_version(selected_version)
+                        if success:
+                            st.success(f"Version {selected_version} deleted successfully")
+                            # Clear session states
+                            st.session_state.delete_confirm = False
+                            if "version_list" in st.session_state:
+                                del st.session_state.version_list
+                            # Force refresh versions
+                            versions = AdminController.get_available_versions()
+                            if not versions:
+                                st.session_state.page = 'admin_model_management'
+                            st.rerun()
+                        else:
+                            st.error("Failed to delete model version")
+                with col2:
+                    if st.button("Cancel", type="secondary", use_container_width=True):
+                        st.session_state.delete_confirm = False
+                        st.rerun()
+            
     # Data upload section for adding new training data
     st.subheader("Add Training Data")
     st.write("Upload a CSV file with additional training data")

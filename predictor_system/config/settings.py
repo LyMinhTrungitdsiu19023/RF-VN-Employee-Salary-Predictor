@@ -16,11 +16,15 @@ USERS = {
 # Feature options for salary prediction
 EDUCATION_LEVELS = ['High School', 'Bachelor', 'Master', 'PhD']
 JOB_ROLES = ['Data Scientist', 'Software Engineer', 'Manager', 'Analyst', 'HR']
-LOCATIONS = ['New York', 'San Francisco', 'Austin', 'Remote', 'India']
 GENDERS = ['Male', 'Female', 'Other']
 
 # Updated user types
 USER_TYPES = ["Student", "Software Engineer", "Recruiter"]
+
+# Currency conversion settings (module-level so other modules can import them)
+# Approximate conversion rate: 1 INR -> 280 VND (update if you need a different rate)
+RATE_INR_TO_VND = 280
+CURRENCY_SYMBOL_VND = '₫'
 
 def set_page_config():
     """Set the page configuration for the Streamlit app"""
@@ -47,3 +51,5 @@ def set_page_config():
         }
         </style>
     """, unsafe_allow_html=True)
+
+    

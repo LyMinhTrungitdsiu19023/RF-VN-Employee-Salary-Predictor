@@ -2,7 +2,7 @@ import streamlit as st
 import time
 from controllers.auth_controller import AuthController
 from controllers.user_controller import UserController
-from config.settings import EDUCATION_LEVELS, JOB_ROLES, LOCATIONS, GENDERS
+from config.settings import EDUCATION_LEVELS, JOB_ROLES, GENDERS, RATE_INR_TO_VND, CURRENCY_SYMBOL_VND
 
 def display_salary_prediction():
     """Display the salary prediction page"""
@@ -25,13 +25,19 @@ def display_salary_prediction():
     st.write('Predict employee salary using manual input or batch CSV upload.')
 
     try:
+        # Get active model version
+        active_version = st.session_state.get('active_model_version')
+        if not active_version:
+            st.warning("No active model set. Using demo mode.")
+        else:
+            st.info(f"Using active model (Version {active_version})")
+
         # --- Manual Input ---
         st.header('Manual Prediction')
         with st.form('manual_form'):
             experience = st.slider('Years of Experience', 0, 20, 5)
             education = st.selectbox('Education Level', EDUCATION_LEVELS)
             job_role = st.selectbox('Job Role', JOB_ROLES)
-            location = st.selectbox('Location', LOCATIONS)
             age = st.slider('Age', 22, 60, 30)
             gender = st.selectbox('Gender', GENDERS)
             submitted = st.form_submit_button('Predict Salary')
@@ -42,39 +48,54 @@ def display_salary_prediction():
                     'experience': experience,
                     'education': education,
                     'job_role': job_role,
-                    'location': location,
                     'age': age,
                     'gender': gender
                 }
                 
-                # Get prediction from controller
-                salary_pred = UserController.predict_salary(features)
-                st.success(f'Predicted Salary: ₹{int(salary_pred):,.0f}')
+                # Get prediction from controller with version
+                salary_pred = UserController.predict_salary(features, model_version=active_version)
+                
+                # Convert prediction to VND for display
+                try:
+                    vnd_salary = float(salary_pred) * RATE_INR_TO_VND
+                except Exception:
+                    vnd_salary = salary_pred
+
+                # Display prediction with nice formatting (VND)
+                st.markdown(f"""
+                    <div style='background-color: #e6f3ff; padding: 20px; border-radius: 10px;'>
+                        <h3 style='color: #0066cc; text-align: center;'>Predicted Salary</h3>
+                        <h2 style='color: #004d99; text-align: center;'>{CURRENCY_SYMBOL_VND} {vnd_salary:,.0f}</h2>
+                    </div>
+                """, unsafe_allow_html=True)
 
         # --- Batch Prediction (Only for Recruiters) ---
         if hasattr(st.session_state, 'user_type') and st.session_state.user_type == "Recruiter":
             st.header('Batch Prediction (CSV Upload)')
-            st.write('Upload a CSV file with columns: YearsExperience, Education, JobRole, Location, Age, Gender')
+            st.write('Upload a CSV file with columns: YearsExperience, Education, JobRole, Age, Gender')
             file = st.file_uploader('Upload CSV', type=['csv'])
             if file is not None:
                 # Process batch prediction
-                result = UserController.predict_batch(file)
+                result = UserController.predict_batch(file, model_version=active_version)
                 if result["success"]:
-                    st.dataframe(result["data"])
+                    # Convert PredictedSalary to VND for display and download if present
+                    df_out = result["data"].copy()
+                    if 'PredictedSalary' in df_out.columns:
+                        try:
+                            df_out['PredictedSalary'] = (df_out['PredictedSalary'].astype(float) * RATE_INR_TO_VND).round().astype(int)
+                        except Exception:
+                            pass
+
+                    st.dataframe(df_out)
                     # Download link
-                    csv = result["data"].to_csv(index=False).encode('utf-8')
-                    st.download_button('Download Predictions as CSV', csv, 'salary_predictions.csv', 'text/csv')
+                    csv = df_out.to_csv(index=False).encode('utf-8')
+                    st.download_button('Download Predictions as CSV', csv, 'salary_predictions_vnd.csv', 'text/csv')
                 else:
                     st.error(result["message"])
                     st.info("Please ensure your CSV file is properly formatted.")
         elif hasattr(st.session_state, 'user_type') and st.session_state.user_type != "Recruiter":
             st.info("Batch prediction is only available for Recruiter accounts.")
-
-        # --- Model Info ---
-        st.header('Model & Dataset Info')
-        st.write('Trained on 500 synthetic employee records. Model: Random Forest Regressor.')
-        st.write('Features: YearsExperience, Education, JobRole, Location, Age, Gender')
-        st.write('All salaries are shown in Indian Rupees (₹).')
+            
     except Exception as e:
         st.error(f"An unexpected error occurred: {e}")
         st.info("The application is running in a limited mode. Some features may not be available.")

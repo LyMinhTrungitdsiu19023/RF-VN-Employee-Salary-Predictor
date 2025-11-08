@@ -2,29 +2,107 @@ import os
 import joblib
 import numpy as np
 import pandas as pd
+import datetime
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.metrics import mean_squared_error, r2_score
 
 class SalaryPredictionModel:
-    """Model for salary prediction"""
+    """Model for salary prediction with versioning support"""
     
-    def __init__(self):
+    def __init__(self, version=None):
         self.model = None
         self.scaler = None
         self.label_encoders = None
         self.is_loaded = False
+        self.version = version
+        self.model_dir = 'model_versions'
+        
+        # Ensure model versions directory exists
+        os.makedirs(self.model_dir, exist_ok=True)
         
         # Try to load the model
         try:
-            self.model = joblib.load('salary_model.pkl')
-            self.scaler = joblib.load('scaler.pkl')
-            self.label_encoders = joblib.load('label_encoders.pkl')
-            self.is_loaded = True
+            if version:
+                self._load_specific_version(version)
+            else:
+                self._load_latest_version()
         except Exception:
             # Model not loaded, will use mock predictions
             pass
+            
+    def _load_specific_version(self, version):
+        """Load a specific version of the model"""
+        version_path = os.path.join(self.model_dir, f'v{version}')
+        self.model = joblib.load(os.path.join(version_path, 'salary_model.pkl'))
+        self.scaler = joblib.load(os.path.join(version_path, 'scaler.pkl'))
+        self.label_encoders = joblib.load(os.path.join(version_path, 'label_encoders.pkl'))
+        self.version = version
+        self.is_loaded = True
+    
+    def _load_latest_version(self):
+        """Load the latest version of the model"""
+        versions = self.get_available_versions()
+        if versions:
+            latest_version = max(versions)
+            self._load_specific_version(latest_version)
+    
+    def get_available_versions(self):
+        """Get list of available model versions"""
+        try:
+            versions = []
+            for dirname in os.listdir(self.model_dir):
+                if dirname.startswith('v') and os.path.isdir(os.path.join(self.model_dir, dirname)):
+                    try:
+                        version_num = int(dirname[1:])
+                        versions.append(version_num)
+                    except ValueError:
+                        continue
+            return sorted(versions)
+        except FileNotFoundError:
+            return []
+            
+    def get_model_parameters(self, version=None):
+        """Get model parameters and metadata for a specific version"""
+        if version is None:
+            version = self.version
+            
+        if version is None:
+            return None
+            
+        try:
+            version_path = os.path.join(self.model_dir, f'v{version}')
+            
+            # Load model first as it's essential
+            model = joblib.load(os.path.join(version_path, 'salary_model.pkl'))
+            
+            # Get basic model parameters
+            params = {
+                'n_estimators': model.n_estimators,
+                'max_depth': model.max_depth,
+                'min_samples_split': model.min_samples_split,
+                'min_samples_leaf': model.min_samples_leaf,
+                'max_features': model.max_features,
+                'random_state': model.random_state
+            }
+            
+            # Try to load metadata, but don't fail if it doesn't exist
+            try:
+                metadata = joblib.load(os.path.join(version_path, 'metadata.pkl'))
+                params.update({
+                    'version': version,
+                    'created_at': metadata.get('created_at'),
+                    'feature_names': metadata.get('feature_names')
+                })
+            except Exception:
+                params['version'] = version
+            
+            return params
+            
+        except Exception as e:
+            print(f"Error loading model parameters: {e}")
+            return None
     
     def predict_salary(self, features):
         """
@@ -42,7 +120,6 @@ class SalaryPredictionModel:
                 'YearsExperience': features['experience'],
                 'Education': self.label_encoders['Education'].transform([features['education']])[0],
                 'JobRole': self.label_encoders['JobRole'].transform([features['job_role']])[0],
-                'Location': self.label_encoders['Location'].transform([features['location']])[0],
                 'Age': features['age'],
                 'Gender': self.label_encoders['Gender'].transform([features['gender']])[0],
             }
@@ -67,10 +144,10 @@ class SalaryPredictionModel:
         
         if self.is_loaded:
             # Encode categorical columns
-            for col in ['Education', 'JobRole', 'Location', 'Gender']:
+            for col in ['Education', 'JobRole', 'Gender']:
                 df_copy[col] = self.label_encoders[col].transform(df_copy[col])
             
-            X = df_copy[['YearsExperience', 'Education', 'JobRole', 'Location', 'Age', 'Gender']]
+            X = df_copy[['YearsExperience', 'Education', 'JobRole', 'Age', 'Gender']]
             X_scaled = self.scaler.transform(X)
             df_copy['PredictedSalary'] = self.model.predict(X_scaled).astype(int)
         else:
@@ -81,7 +158,6 @@ class SalaryPredictionModel:
                     'experience': row['YearsExperience'],
                     'education': row['Education'],
                     'job_role': row['JobRole'],
-                    'location': row['Location'],
                     'age': row['Age'],
                     'gender': row['Gender']
                 }
@@ -103,6 +179,10 @@ class SalaryPredictionModel:
         Returns:
             dict: Model performance metrics
         """
+        # Remove Location column if it exists
+        if 'Location' in df.columns:
+            df = df.drop('Location', axis=1)
+            
         # Prepare data
         X = df.drop('Salary', axis=1)
         y = df['Salary']
@@ -168,12 +248,78 @@ class SalaryPredictionModel:
             'feature_importance': feature_importance
         }
     
-    def save_model(self):
-        """Save model artifacts to disk"""
+    def delete_version(self, version):
+        """Delete a specific model version"""
+        try:
+            version_path = os.path.join(self.model_dir, f'v{version}')
+            if os.path.exists(version_path):
+                # List of files to delete
+                files_to_delete = ['salary_model.pkl', 'scaler.pkl', 
+                                 'label_encoders.pkl', 'metadata.pkl']
+                
+                # Delete each file if it exists
+                for file in files_to_delete:
+                    file_path = os.path.join(version_path, file)
+                    if os.path.exists(file_path):
+                        try:
+                            os.remove(file_path)
+                        except Exception as e:
+                            print(f"Error deleting {file}: {e}")
+                
+                # Delete any remaining files
+                for file in os.listdir(version_path):
+                    try:
+                        os.remove(os.path.join(version_path, file))
+                    except Exception as e:
+                        print(f"Error deleting additional file {file}: {e}")
+                
+                # Remove the directory
+                try:
+                    os.rmdir(version_path)
+                except Exception as e:
+                    print(f"Error removing directory: {e}")
+                    return False
+                
+                # If this was our current version, reset the model
+                if self.version == version:
+                    self.model = None
+                    self.scaler = None
+                    self.label_encoders = None
+                    self.is_loaded = False
+                    self.version = None
+                    
+                return True
+            return False
+        except Exception as e:
+            print(f"Error deleting model version: {e}")
+            return False
+
+    def save_model(self, version=None):
+        """Save model artifacts as a new version or update existing version"""
         if self.is_loaded:
-            joblib.dump(self.model, 'salary_model.pkl')
-            joblib.dump(self.scaler, 'scaler.pkl')
-            joblib.dump(self.label_encoders, 'label_encoders.pkl')
+            if version is None:
+                # Get next version number for new version
+                versions = self.get_available_versions()
+                version = 1 if not versions else max(versions) + 1
+            
+            # Create or use existing version directory
+            version_path = os.path.join(self.model_dir, f'v{version}')
+            os.makedirs(version_path, exist_ok=True)
+            
+            # Save model files
+            joblib.dump(self.model, os.path.join(version_path, 'salary_model.pkl'))
+            joblib.dump(self.scaler, os.path.join(version_path, 'scaler.pkl'))
+            joblib.dump(self.label_encoders, os.path.join(version_path, 'label_encoders.pkl'))
+            
+            # Save metadata
+            metadata = {
+                'version': version,
+                'created_at': datetime.datetime.now().isoformat(),
+                'feature_names': list(self.label_encoders.keys())
+            }
+            joblib.dump(metadata, os.path.join(version_path, 'metadata.pkl'))
+            
+            self.version = version
             return True
         return False
     
@@ -202,24 +348,12 @@ class SalaryPredictionModel:
         elif features['job_role'] == 'HR':
             role_factor = 10000
         
-        loc_factor = 0
-        if features['location'] == 'New York':
-            loc_factor = 30000
-        elif features['location'] == 'San Francisco':
-            loc_factor = 35000
-        elif features['location'] == 'Austin':
-            loc_factor = 15000
-        elif features['location'] == 'Remote':
-            loc_factor = 10000
-        elif features['location'] == 'India':
-            loc_factor = 5000
-        
         age_factor = (features['age'] - 22) * 1000
         
         # Add some random noise
         import random
         noise = random.uniform(-10000, 10000)
         
-        # Calculate mock salary
-        mock_salary = base_salary + exp_factor + edu_factor + role_factor + loc_factor + age_factor + noise
+        # Calculate mock salary (removed location factor)
+        mock_salary = base_salary + exp_factor + edu_factor + role_factor + age_factor + noise
         return mock_salary
