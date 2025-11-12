@@ -1,1 +1,3 @@
 *.pyc
+# Training data - exclude large datasets
+predictor_system/data/training_data/*.csv
