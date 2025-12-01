@@ -1,4 +1,8 @@
 import streamlit as st
+import os
+import json
+
+SETTINGS_FILE = "app_settings.json"
 
 # Predefined user accounts - in a real app, this would be in a database
 USERS = {
@@ -15,7 +19,16 @@ USERS = {
 
 # Feature options for salary prediction
 EDUCATION_LEVELS = ['High School', 'Bachelor', 'Master', 'PhD']
-JOB_ROLES = ['Data Scientist', 'Software Engineer', 'Manager', 'Analyst', 'HR']
+JOB_ROLES = [
+    'Data Scientist',
+    'Back-end Developer',
+    'Front-end Developer', 
+    'Mobile Developer',
+    'Embedded Engineer',
+    'DevOps',
+    'Full-stack Developer',
+    'Game Developer'
+]
 GENDERS = ['Male', 'Female', 'Other']
 
 # Updated user types
@@ -25,6 +38,32 @@ USER_TYPES = ["Student", "Software Engineer", "Recruiter"]
 # Approximate conversion rate: 1 INR -> 280 VND (update if you need a different rate)
 RATE_INR_TO_VND = 280
 CURRENCY_SYMBOL_VND = '₫'
+
+def save_active_model_version(version):
+    """Save the active model version to a file"""
+    settings = {}
+    if os.path.exists(SETTINGS_FILE):
+        try:
+            with open(SETTINGS_FILE, 'r') as f:
+                settings = json.load(f)
+        except:
+            settings = {}
+    
+    settings['active_model_version'] = version
+    
+    with open(SETTINGS_FILE, 'w') as f:
+        json.dump(settings, f)
+
+def get_active_model_version():
+    """Get the active model version from file"""
+    if os.path.exists(SETTINGS_FILE):
+        try:
+            with open(SETTINGS_FILE, 'r') as f:
+                settings = json.load(f)
+                return settings.get('active_model_version')
+        except:
+            pass
+    return None
 
 def set_page_config():
     """Set the page configuration for the Streamlit app"""

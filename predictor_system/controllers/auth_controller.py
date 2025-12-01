@@ -45,7 +45,15 @@ class AuthController:
     @staticmethod
     def logout():
         """Log out the current user by resetting session state"""
+        # Save the active model version before clearing
+        active_model = st.session_state.get('active_model_version')
+        
+        # Clear session state
         st.session_state.page = 'role_selection'
         st.session_state.role = None
         st.session_state.username = None
         st.session_state.user_type = None
+        
+        # Restore the active model version
+        if active_model:
+            st.session_state.active_model_version = active_model

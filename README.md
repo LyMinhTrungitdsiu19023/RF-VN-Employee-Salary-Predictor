@@ -86,7 +86,3 @@ Intelligence System Course
 ## Contributors
 
 Ly Minh Trung
-
-Tran Thi Van Anh
-
-Le Nguyen Gia Nghi

@@ -2,7 +2,7 @@ import streamlit as st
 import time
 from controllers.auth_controller import AuthController
 from controllers.user_controller import UserController
-from config.settings import EDUCATION_LEVELS, JOB_ROLES, GENDERS, RATE_INR_TO_VND, CURRENCY_SYMBOL_VND
+from config.settings import EDUCATION_LEVELS, JOB_ROLES, GENDERS, RATE_INR_TO_VND, CURRENCY_SYMBOL_VND, get_active_model_version
 
 def display_salary_prediction():
     """Display the salary prediction page"""
@@ -25,8 +25,14 @@ def display_salary_prediction():
     st.write('Predict employee salary using manual input or batch CSV upload.')
 
     try:
-        # Get active model version
+        # Get active model version - first check session state, then persistent storage
         active_version = st.session_state.get('active_model_version')
+        if not active_version:
+            # Try to get from persistent storage
+            active_version = get_active_model_version()
+            if active_version:
+                st.session_state.active_model_version = active_version
+        
         if not active_version:
             st.warning("No active model set. Using demo mode.")
         else:
@@ -35,10 +41,10 @@ def display_salary_prediction():
         # --- Manual Input ---
         st.header('Manual Prediction')
         with st.form('manual_form'):
-            experience = st.slider('Years of Experience', 0, 20, 5)
+            experience = st.slider('Years of Experience', 2)
             education = st.selectbox('Education Level', EDUCATION_LEVELS)
             job_role = st.selectbox('Job Role', JOB_ROLES)
-            age = st.slider('Age', 22, 60, 30)
+            age = st.slider('Age', 24)
             gender = st.selectbox('Gender', GENDERS)
             submitted = st.form_submit_button('Predict Salary')
 
@@ -57,7 +63,7 @@ def display_salary_prediction():
                 
                 # Convert prediction to VND for display
                 try:
-                    vnd_salary = float(salary_pred) * RATE_INR_TO_VND
+                    vnd_salary = float(salary_pred)
                 except Exception:
                     vnd_salary = salary_pred
 
@@ -82,7 +88,7 @@ def display_salary_prediction():
                     df_out = result["data"].copy()
                     if 'PredictedSalary' in df_out.columns:
                         try:
-                            df_out['PredictedSalary'] = (df_out['PredictedSalary'].astype(float) * RATE_INR_TO_VND).round().astype(int)
+                            df_out['PredictedSalary'] = (df_out['PredictedSalary'].astype(float)).round().astype(int)
                         except Exception:
                             pass
 

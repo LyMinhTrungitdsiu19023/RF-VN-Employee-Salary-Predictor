@@ -1,0 +1,717 @@
+YearsExperience,Education,JobRole,OrgSize,Location,Salary,CompFreq,Currency,LanguageHaveWorkedWith,Age,Gender
+0.0,High School,Front-end Developer,100 to 499 employees,Vietnam,18400000,Monthly,VND,CoffeeScript; JavaScript; Rust,22,Male
+7.0,Bachelor,Front-end Developer,"1,000 to 4,999 employees",Vietnam,23000000,Monthly,VND,C#,29,Male
+2.0,Bachelor,Mobile Developer,10 to 19 employees,Vietnam,27600000,Monthly,VND,C++; Objective-C; Swift,24,Other
+10.0,Bachelor,DevOps,10 to 19 employees,Vietnam,76666667,Monthly,VND,,32,Other
+12.0,Bachelor,Data Scientist,20 to 99 employees,Vietnam,34500000,Monthly,VND,Clojure; Java; JavaScript; Python; Scala; SQL,34,Male
+4.0,Bachelor,Front-end Developer,20 to 99 employees,Vietnam,69000000,Monthly,VND,JavaScript; Ruby,26,Male
+2.0,High School,Front-end Developer,100 to 499 employees,Vietnam,23000000,Monthly,VND,C; C#; Java; JavaScript,24,Male
+4.0,Bachelor,Front-end Developer,20 to 99 employees,Vietnam,14950000,Monthly,VND,JavaScript; PHP; SQL,26,Female
+14.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,30000000,Monthly,VND,Java;JavaScript,39,Male
+5.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,17000000,Monthly,VND,Java;Objective-C,27,Other
+3.0,Bachelor,Data Scientist,"1,000 to 4,999 employees",Viet Nam,21000000,Monthly,VND,C;C++;Java;JavaScript;Python;Ruby;HTML;CSS,22,Male
+8.0,Master,Mobile Developer,20 to 99 employees,Viet Nam,138000000,Monthly,VND,Java;JavaScript;Swift;HTML;CSS,30,Male
+4.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,29900000,Monthly,VND,Go;JavaScript;Python;Ruby;Scala;Bash/Shell,19,Male
+7.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,39100000,Monthly,VND,C++;Java,29,Male
+3.0,Master,Embedded Engineer,20 to 99 employees,Viet Nam,18500000,Monthly,VND,C;Bash/Shell,31,Male
+7.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,13800000,Monthly,VND,CoffeeScript;JavaScript;Ruby;SQL;Cobol;HTML;CSS,26,Male
+2.0,Bachelor,Front-end Developer,"10,000 or more employees",Viet Nam,18000000,Monthly,VND,C#;JavaScript;HTML;CSS,33,Male
+7.0,High School,Front-end Developer,10 to 19 employees,Viet Nam,13000000,Monthly,VND,JavaScript;PHP;TypeScript;HTML;CSS;Bash/Shell,27,Male
+8.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,24083333,Monthly,VND,C#;JavaScript;SQL;TypeScript;HTML;CSS,30,Male
+1.0,Bachelor,Data Scientist,10 to 19 employees,Viet Nam,13800000,Monthly,VND,PHP;Python;Ruby;HTML,28,Male
+2.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,16500000,Monthly,VND,Java;JavaScript;PHP;Python;SQL;HTML;CSS,23,Male
+8.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,21083333,Monthly,VND,CoffeeScript;Go;Ruby;Swift,29,Male
+5.0,Bachelor,Back-end Developer,"10,000 or more employees",Viet Nam,25000000,Monthly,VND,JavaScript;HTML;CSS,33,Male
+3.0,High School,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,16900000,Monthly,VND,C++;Java;JavaScript;PHP;Python;SQL;HTML;CSS;Bash/Shell,23,Male
+3.0,Bachelor,Mobile Developer,"10,000 or more employees",Viet Nam,20000000,Monthly,VND,Java;SQL;Swift;Kotlin,30,Male
+5.0,Bachelor,Front-end Developer,10 to 19 employees,Viet Nam,14490000,Monthly,VND,Java;JavaScript;SQL;Kotlin,26,Male
+15.0,Master,Back-end Developer,500 to 999 employees,Viet Nam,46000000,Monthly,VND,Python,40,Male
+6.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,18000000,Monthly,VND,Java;JavaScript;SQL;HTML;CSS,38,Male
+14.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,34500000,Monthly,VND,Java;JavaScript;PHP;HTML;CSS,40,Male
+8.0,Bachelor,Back-end Developer,500 to 999 employees,Viet Nam,57500000,Monthly,VND,Go;Objective-C;Python;Swift,29,Male
+6.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,40000000,Monthly,VND,CoffeeScript;Java;JavaScript;Ruby;SQL,33,Male
+12.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,48000000,Monthly,VND,Java;JavaScript;Ruby;SQL;HTML,30,Male
+6.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,13800000,Monthly,VND,C#;Java;JavaScript;Objective-C;Swift;Kotlin;HTML,30,Male
+6.0,Bachelor,Front-end Developer,"1,000 to 4,999 employees",Viet Nam,17250000,Monthly,VND,JavaScript;PHP;Python;HTML;CSS;Bash/Shell,34,Male
+8.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,15000000,Monthly,VND,C#;JavaScript,26,Male
+9.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,40000000,Monthly,VND,C#;JavaScript;SQL;HTML;CSS,31,Male
+7.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,14000000,Monthly,VND,C#;Java;SQL,29,Other
+12.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,82800000,Monthly,VND,Assembly;C;C++;C#;Java;JavaScript;Objective-C;Python;Ruby;SQL;TypeScript;VBA;VB.NET;Visual Basic 6,34,Male
+6.0,Bachelor,Data Scientist,500 to 999 employees,Viet Nam,15000000,Monthly,VND,C;C++;Java;JavaScript;Matlab;PHP;SQL;HTML;CSS;Bash/Shell,22,Male
+0.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,22000000,Monthly,VND,Go;Java;JavaScript;Python;HTML;CSS,18,Male
+5.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,17000000,Monthly,VND,Java;JavaScript;Matlab;PHP;Python;R;SQL;HTML;CSS;Bash/Shell,23,Male
+6.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,19000000,Monthly,VND,Java;JavaScript;PHP;SQL;HTML;CSS;Bash/Shell,32,Male
+2.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,12000000,Monthly,VND,JavaScript;Python;TypeScript;HTML;CSS,19,Male
+4.0,High School,Mobile Developer,10 to 19 employees,Viet Nam,8000000,Monthly,VND,C;C++;C#;Java;JavaScript;PHP;Python;SQL;HTML;CSS,20,Male
+8.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,28750000,Monthly,VND,Java;Python;Kotlin,29,Male
+8.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,25000000,Monthly,VND,C#;JavaScript;Python;SQL;HTML;CSS;Bash/Shell,30,Male
+3.0,Bachelor,Front-end Developer,10 to 19 employees,Viet Nam,17000000,Monthly,VND,C;C++;C#,30,Male
+0.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,12000000,Monthly,VND,C#;JavaScript;Ruby;SQL;HTML;CSS,24,Other
+12.0,Master,Back-end Developer,20 to 99 employees,Viet Nam,46000000,Monthly,VND,C#;Java;Python;SQL,31,Male
+8.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,27600000,Monthly,VND,JavaScript;TypeScript;HTML;CSS,27,Male
+3.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,10000000,Monthly,VND,C#;JavaScript;HTML;CSS,34,Male
+4.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,16100000,Monthly,VND,JavaScript;PHP;SQL;HTML;CSS,28,Male
+5.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,70000000,Monthly,VND,Go;Java;Lua;Perl;Python;Bash/Shell,26,Male
+5.0,Master,Back-end Developer,10 to 19 employees,Viet Nam,29000000,Monthly,VND,JavaScript;PHP;SQL;VB.NET;HTML;CSS;Bash/Shell,27,Male
+8.0,Bachelor,DevOps,"10,000 or more employees",Viet Nam,34500000,Monthly,VND,Objective-C,30,Other
+3.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,9200000,Monthly,VND,JavaScript;HTML;CSS,22,Male
+14.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,10000000,Monthly,VND,C#;JavaScript;SQL;HTML,27,Male
+6.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,19000000,Monthly,VND,Java;JavaScript;Objective-C;PHP;Swift;TypeScript;HTML;CSS,27,Male
+21.0,Bachelor,Back-end Developer,"5,000 to 9,999 employees",Viet Nam,210000000,Monthly,VND,Assembly;Go;Java;JavaScript;PHP;SQL;HTML;CSS,38,Male
+2.0,Master,Back-end Developer,100 to 499 employees,Viet Nam,10000000,Monthly,VND,Java;HTML;CSS,24,Other
+3.0,Bachelor,Data Scientist,10 to 19 employees,Viet Nam,25060000,Monthly,VND,,25,Other
+7.0,High School,Front-end Developer,"1,000 to 4,999 employees",Viet Nam,23000000,Monthly,VND,Java;JavaScript;SQL;HTML,30,Male
+5.0,Bachelor,Front-end Developer,"10,000 or more employees",Viet Nam,11500000,Monthly,VND,C++;C#;JavaScript;SQL;VB.NET;HTML;CSS,27,Other
+14.0,High School,Back-end Developer,"10,000 or more employees",Viet Nam,40000000,Monthly,VND,Java;JavaScript;PHP;HTML;CSS;Bash/Shell,25,Male
+0.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,6000000,Monthly,VND,Java;JavaScript;Objective-C;PHP;SQL;HTML;CSS,23,Male
+8.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,39000000,Monthly,VND,Java;Python;R,32,Male
+1.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,10350000,Monthly,VND,Java;JavaScript;SQL;TypeScript;HTML;CSS,23,Other
+9.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,100000000,Monthly,VND,C#,35,Male
+6.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,14600000,Monthly,VND,C;C++;Java;JavaScript;HTML;CSS,20,Male
+22.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,17000000,Monthly,VND,C;C++;Java;JavaScript;Bash/Shell,19,Male
+6.0,High School,Data Scientist,100 to 499 employees,Viet Nam,41400000,Monthly,VND,JavaScript,32,Male
+3.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,9200000,Monthly,VND,C;C++;Java;JavaScript;SQL;TypeScript;HTML;CSS,18,Male
+2.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,15000000,Monthly,VND,,24,Other
+30.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,74000000,Monthly,VND,C#,54,Male
+0.0,High School,Front-end Developer,20 to 99 employees,Viet Nam,11500000,Monthly,VND,Java;JavaScript;PHP;SQL;HTML;CSS,23,Male
+8.0,Bachelor,Back-end Developer,"5,000 to 9,999 employees",Viet Nam,30000000,Monthly,VND,,30,Other
+8.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,14950000,Monthly,VND,,30,Other
+3.0,Bachelor,Back-end Developer,500 to 999 employees,Viet Nam,32000000,Monthly,VND,Java;SQL;Bash/Shell,30,Male
+4.0,Bachelor,Front-end Developer,10 to 19 employees,Viet Nam,10000000,Monthly,VND,C#;JavaScript;SQL;TypeScript;HTML;CSS,22,Male
+9.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,20000000,Monthly,VND,C#;JavaScript;PHP;Python;HTML;CSS,28,Male
+12.0,Bachelor,Embedded Engineer,100 to 499 employees,Viet Nam,34500000,Monthly,VND,C#;JavaScript;Matlab;Objective-C;PHP;SQL;HTML;CSS;Bash/Shell,29,Male
+3.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,JavaScript;Swift,25,Male
+6.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,73600000,Monthly,VND,C#;JavaScript;R;SQL;TypeScript;HTML;CSS,21,Male
+6.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,92000000,Monthly,VND,Go;JavaScript;TypeScript;HTML;CSS,32,Male
+3.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,14000000,Monthly,VND,C#;Java;JavaScript;Python;R;HTML;CSS;Bash/Shell,23,Male
+11.0,PhD,Data Scientist,20 to 99 employees,Viet Nam,69000000,Monthly,VND,Assembly;C;Objective-C,50,Male
+6.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,36800000,Monthly,VND,C#;Java;JavaScript;SQL;HTML;CSS,31,Male
+2.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,12000000,Monthly,VND,C#;JavaScript,23,Male
+14.0,Bachelor,Mobile Developer,10 to 19 employees,Viet Nam,69000000,Monthly,VND,C;C++;C#;Java;JavaScript;Perl;PHP;SQL;HTML;CSS,43,Male
+5.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,25000000,Monthly,VND,C;C#;Java;Matlab;Objective-C;HTML,27,Male
+5.0,High School,Front-end Developer,100 to 499 employees,Viet Nam,23000000,Monthly,VND,Java;JavaScript;PHP;HTML;CSS;Bash/Shell,27,Male
+10.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,35000000,Monthly,VND,Clojure;JavaScript;SQL;TypeScript;HTML;CSS;Bash/Shell,43,Female
+10.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,30000000,Monthly,VND,C;C++;C#;Delphi/Object Pascal,13,Male
+2.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,6900000,Monthly,VND,,24,Other
+11.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,85000000,Monthly,VND,HTML/CSS;JavaScript;PHP,35,Male
+15.0,Bachelor,Back-end Developer,500 to 999 employees,Viet Nam,30000000,Monthly,VND,Java;JavaScript,37,Male
+7.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,28000000,Monthly,VND,Bash/Shell/PowerShell;C++;C#;JavaScript;Python;Swift,29,Male
+7.0,Bachelor,Mobile Developer,10 to 19 employees,Viet Nam,27846000,Monthly,VND,Dart;JavaScript;TypeScript,26,Male
+9.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,28000000,Monthly,VND,Go;PHP;SQL,25,Male
+3.0,High School,Front-end Developer,100 to 499 employees,Viet Nam,12000000,Monthly,VND,C#;HTML/CSS;JavaScript;PHP,26,Male
+3.0,Bachelor,Embedded Engineer,500 to 999 employees,Viet Nam,10000000,Monthly,VND,Bash/Shell/PowerShell;C;Python;VBA,24,Male
+10.0,Master,Back-end Developer,100 to 499 employees,Viet Nam,30000000,Monthly,VND,Assembly;C#;HTML/CSS;JavaScript;SQL;TypeScript;VBA,36,Male
+5.0,Bachelor,Front-end Developer,100 to 499 employees,Viet Nam,14000000,Monthly,VND,HTML/CSS;JavaScript,25,Male
+5.0,Master,Embedded Engineer,"10,000 or more employees",Viet Nam,58333333,Monthly,VND,Assembly;Go;HTML/CSS;Java;JavaScript;PHP;WebAssembly,26,Male
+4.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,16800000,Monthly,VND,C#;HTML/CSS;JavaScript;SQL;TypeScript,23,Male
+12.0,High School,Mobile Developer,100 to 499 employees,Viet Nam,92000000,Monthly,VND,Assembly;C++;C#;HTML/CSS;Java;JavaScript;Kotlin;Python;Ruby;Scala;SQL;TypeScript;VBA,34,Male
+6.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,10350000,Monthly,VND,C;C++;C#;Dart;Java;JavaScript;TypeScript,25,Male
+6.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,13000000,Monthly,VND,PHP,25,Male
+7.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,12650000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;Python;SQL;TypeScript,29,Male
+5.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,15000000,Monthly,VND,C#;HTML/CSS;JavaScript;PHP;Python;SQL,23,Male
+9.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,15000000,Monthly,VND,C#;HTML/CSS;JavaScript;SQL,27,Male
+7.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,11500000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,29,Male
+10.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,60000000,Monthly,VND,Bash/Shell/PowerShell;C;Dart;Go;HTML/CSS;Java;JavaScript;PHP;SQL,32,Male
+2.0,High School,Back-end Developer,2-9 employees,Viet Nam,20000000,Monthly,VND,HTML/CSS;JavaScript;PHP;SQL,24,Male
+19.0,High School,Mobile Developer,20 to 99 employees,Viet Nam,22361111,Monthly,VND,Go;HTML/CSS;JavaScript;Python;SQL,40,Male
+5.0,Master,Back-end Developer,100 to 499 employees,Viet Nam,15000000,Monthly,VND,HTML/CSS;JavaScript;PHP;TypeScript,26,Male
+12.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,16000000,Monthly,VND,C#;HTML/CSS;Java;JavaScript;SQL;Swift,36,Male
+12.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,27000000,Monthly,VND,C;C++;Java,33,Male
+3.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,92000000,Monthly,VND,Assembly;Bash/Shell/PowerShell;C;C++;Dart;Elixir;Erlang;Go;HTML/CSS;JavaScript;Kotlin;Python;Ruby;Rust;Scala;SQL;TypeScript,23,Male
+7.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,19000000,Monthly,VND,C#;HTML/CSS;JavaScript;Ruby;SQL;TypeScript,25,Male
+5.0,Master,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,15000000,Monthly,VND,C++;HTML/CSS;Java;JavaScript;Python;SQL,24,Male
+3.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,8000000,Monthly,VND,HTML/CSS;Java;JavaScript;Objective-C;PHP;SQL,24,Male
+4.0,Master,Back-end Developer,2-9 employees,Viet Nam,172500000,Monthly,VND,HTML/CSS;JavaScript,29,Male
+3.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,34500000,Monthly,VND,Bash/Shell/PowerShell;C;HTML/CSS;JavaScript;Ruby;SQL,28,Male
+15.0,Master,Full-stack Developer,10 to 19 employees,Viet Nam,46000000,Monthly,VND,Go;Python;SQL,36,Male
+6.0,Master,Back-end Developer,20 to 99 employees,Viet Nam,46000000,Monthly,VND,C#;HTML/CSS;JavaScript;Objective-C;SQL;TypeScript,28,Male
+7.0,Master,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,50000000,Monthly,VND,C++;Go;Java;PHP,25,Male
+5.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,C#;HTML/CSS;Python,25,Male
+10.0,High School,Front-end Developer,"10,000 or more employees",Viet Nam,23000000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Ruby;SQL,27,Male
+7.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,34500000,Monthly,VND,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;Python;Ruby;Scala;SQL;Other(s):,24,Male
+11.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,86000000,Monthly,VND,HTML/CSS;JavaScript;PHP;TypeScript,33,Male
+10.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,50000000,Monthly,VND,Bash/Shell/PowerShell;Java;JavaScript,35,Male
+10.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,70000000,Monthly,VND,Go;Objective-C;Swift,29,Male
+10.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,35000000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;Java;PHP,30,Male
+7.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,18000000,Monthly,VND,C++;Java;JavaScript,27,Male
+7.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,28000000,Monthly,VND,Bash/Shell/PowerShell;C++;C#;HTML/CSS;JavaScript;Python;SQL;Swift,26,Male
+5.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,23000000,Monthly,VND,C++;JavaScript;Objective-C;Python;SQL;Swift,24,Male
+10.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,45000000,Monthly,VND,C#;HTML/CSS;JavaScript;SQL;TypeScript,29,Male
+23.0,Master,Back-end Developer,"10,000 or more employees",Viet Nam,121900000,Monthly,VND,Bash/Shell/PowerShell;C;JavaScript;Python,38,Male
+3.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,18000000,Monthly,VND,HTML/CSS;JavaScript;PHP;Python,21,Male
+5.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,15000000,Monthly,VND,Java;JavaScript,23,Male
+6.0,Bachelor,Back-end Developer,"10,000 or more employees",Viet Nam,28000000,Monthly,VND,C;C++;C#;HTML/CSS;JavaScript;PHP;Python;Ruby,29,Male
+10.0,Bachelor,DevOps,500 to 999 employees,Viet Nam,22000000,Monthly,VND,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;Python;SQL,40,Male
+5.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,15000000,Monthly,VND,HTML/CSS;JavaScript;Ruby;SQL,25,Male
+3.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,18400000,Monthly,VND,HTML/CSS;Java;JavaScript;TypeScript,25,Male
+8.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,56000000,Monthly,VND,C#;Java,28,Male
+9.0,High School,DevOps,100 to 499 employees,Viet Nam,28000000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;TypeScript;Other(s):,26,Male
+2.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,30000000,Monthly,VND,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript,34,Male
+3.0,Master,Mobile Developer,20 to 99 employees,Viet Nam,11500000,Monthly,VND,Bash/Shell/PowerShell;Other(s):,26,Male
+5.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,30000000,Monthly,VND,HTML/CSS;JavaScript;PHP;TypeScript,28,Male
+4.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,23000000,Monthly,VND,C;C++;HTML/CSS;Java;JavaScript;Ruby;Swift;TypeScript,23,Male
+8.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,15000000,Monthly,VND,Assembly;Bash/Shell/PowerShell;C;C++;HTML/CSS;JavaScript;SQL,28,Male
+2.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,18000000,Monthly,VND,C#;HTML/CSS;JavaScript;SQL;TypeScript,24,Male
+9.0,Master,Back-end Developer,10 to 19 employees,Viet Nam,80500000,Monthly,VND,HTML/CSS;JavaScript;Python;Ruby;SQL,31,Male
+5.0,Bachelor,Data Scientist,2-9 employees,Viet Nam,16000000,Monthly,VND,C#;HTML/CSS;JavaScript;SQL,24,Male
+10.0,Master,Back-end Developer,100 to 499 employees,Viet Nam,30416667,Monthly,VND,C#;HTML/CSS;JavaScript;SQL,31,Male
+9.0,Bachelor,Data Scientist,100 to 499 employees,Viet Nam,27600000,Monthly,VND,HTML/CSS;JavaScript;TypeScript,27,Male
+10.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,Assembly;Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL;TypeScript,32,Other
+2.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,10000000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;R,23,Male
+7.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,46000000,Monthly,VND,Java;Kotlin;Python,27,Male
+13.0,Bachelor,Full-stack Developer,2-9 employees,Viet Nam,25000000,Monthly,VND,C#;HTML/CSS;JavaScript;Objective-C;PHP;SQL;Swift,33,Male
+3.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,C;Clojure;Go;HTML/CSS;JavaScript;Python;Ruby;SQL,22,Male
+4.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,22000000,Monthly,VND,C#;HTML/CSS;JavaScript,28,Male
+5.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,23000000,Monthly,VND,C++;HTML/CSS;Java;JavaScript;SQL;TypeScript,28,Male
+6.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,18500000,Monthly,VND,C++;C#;HTML/CSS;Java;JavaScript;PHP;SQL;Other(s):,25,Female
+4.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,9000000,Monthly,VND,HTML/CSS;JavaScript;Ruby,23,Male
+4.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,HTML/CSS;Java;JavaScript,22,Male
+4.0,Bachelor,Back-end Developer,"10,000 or more employees",Viet Nam,25000000,Monthly,VND,C#;JavaScript;TypeScript,24,Male
+32.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,63000000,Monthly,VND,C#;Other(s):,46,Male
+4.0,Master,Mobile Developer,"1,000 to 4,999 employees",Viet Nam,30000000,Monthly,VND,HTML/CSS;R,28,Female
+3.0,High School,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,11000000,Monthly,VND,Python;SQL,24,Male
+8.0,Bachelor,DevOps,10 to 19 employees,Viet Nam,34500000,Monthly,VND,HTML/CSS;JavaScript;PHP;Other(s):,33,Male
+5.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,14000000,Monthly,VND,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;JavaScript;SQL;TypeScript,25,Male
+9.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,17296000,Monthly,VND,HTML/CSS;JavaScript;PHP;SQL,29,Other
+9.0,Bachelor,Embedded Engineer,"10,000 or more employees",Viet Nam,20500000,Monthly,VND,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL;TypeScript,28,Male
+15.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,50000000,Monthly,VND,C;C#;C++;HTML/CSS;Java;JavaScript;PHP;TypeScript;VBA,34,Male
+3.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,26000000,Monthly,VND,C#;HTML/CSS;SQL,30,Male
+12.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,18000000,Monthly,VND,C#;HTML/CSS;JavaScript;PHP;SQL,28,Male
+3.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,55000000,Monthly,VND,C#;SQL,25,Male
+4.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,13000000,Monthly,VND,C#;HTML/CSS;JavaScript;PHP;SQL,25,Male
+5.0,Bachelor,Front-end Developer,100 to 499 employees,Viet Nam,19000000,Monthly,VND,HTML/CSS;JavaScript;PHP;Python,25,Male
+8.0,Bachelor,Back-end Developer,500 to 999 employees,Viet Nam,29900000,Monthly,VND,HTML/CSS;Java;JavaScript;Kotlin;PHP;SQL,29,Male
+9.0,High School,DevOps,100 to 499 employees,Viet Nam,23000000,Monthly,VND,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL;TypeScript,31,Male
+25.0,High School,Mobile Developer,20 to 99 employees,Viet Nam,276000000,Monthly,VND,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;Python;SQL,41,Male
+18.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,210833333,Monthly,VND,C++;Java;JavaScript;PHP;SQL,40,Male
+12.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,60000000,Monthly,VND,HTML/CSS;Java;JavaScript;Kotlin;SQL;TypeScript,38,Male
+7.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,18000000,Monthly,VND,JavaScript;Kotlin,24,Male
+50.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,495855000,Monthly,VND,Assembly;Bash/Shell/PowerShell;C;C#;C++;Dart;Go;Haskell;HTML/CSS;Java;JavaScript;Julia;Kotlin;Objective-C;Perl;PHP;Python;R;Ruby;Rust;Scala;SQL;Swift;TypeScript;VBA,72,Male
+5.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,16000000,Monthly,VND,Dart;HTML/CSS;JavaScript;SQL;TypeScript,22,Male
+35.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,83000000,Monthly,VND,C#;HTML/CSS;SQL;TypeScript,47,Male
+4.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,HTML/CSS;JavaScript;PHP;SQL,26,Male
+8.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,Java;SQL;Swift,27,Male
+2.0,High School,Mobile Developer,20 to 99 employees,Viet Nam,34500000,Monthly,VND,Java;JavaScript;Kotlin,30,Male
+5.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,18400000,Monthly,VND,C#;Java;JavaScript,27,Male
+7.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,30000000,Monthly,VND,C;C#;C++;Python;VBA,28,Male
+4.0,High School,Embedded Engineer,"1,000 to 4,999 employees",Viet Nam,15000000,Monthly,VND,Bash/Shell/PowerShell;C;C#;C++;Java;JavaScript;VBA,27,Male
+5.0,High School,Front-end Developer,20 to 99 employees,Viet Nam,50000000,Monthly,VND,HTML/CSS;JavaScript;TypeScript,25,Male
+20.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,26276250,Monthly,VND,HTML/CSS;Java;JavaScript;PHP;Python;SQL,38,Male
+13.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,Dart;Java;JavaScript;Kotlin;Swift,33,Male
+17.0,High School,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,42000000,Monthly,VND,C#;HTML/CSS;JavaScript;Kotlin;SQL;TypeScript,39,Male
+14.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,34000000,Monthly,VND,JavaScript,33,Male
+15.0,Master,Data Scientist,20 to 99 employees,Viet Nam,158333333,Monthly,VND,Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript;Python;R;Scala;SQL;TypeScript,35,Male
+18.0,Master,Back-end Developer,"5,000 to 9,999 employees",Viet Nam,100000000,Monthly,VND,HTML/CSS;JavaScript;Python;SQL;VBA,32,Male
+6.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,HTML/CSS;JavaScript;Python,28,Male
+5.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,22500000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;SQL,27,Male
+8.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,23000000,Monthly,VND,Go;HTML/CSS;JavaScript;SQL,26,Male
+12.0,Bachelor,Embedded Engineer,"1,000 to 4,999 employees",Viet Nam,69000000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;SQL,27,Male
+6.0,High School,Back-end Developer,"10,000 or more employees",Viet Nam,10500000,Monthly,VND,C;C++,24,Male
+2.0,Bachelor,Full-stack Developer,"10,000 or more employees",Viet Nam,20000000,Monthly,VND,C#;HTML/CSS;JavaScript;SQL;TypeScript,30,Male
+7.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,17000000,Monthly,VND,Go;HTML/CSS;JavaScript;Python;TypeScript,25,Male
+6.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,24000000,Monthly,VND,HTML/CSS;Java;JavaScript;SQL;TypeScript,30,Male
+4.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,8000000,Monthly,VND,HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript,23,Male
+6.0,Bachelor,Embedded Engineer,10 to 19 employees,Viet Nam,10000000,Monthly,VND,HTML/CSS;Java;JavaScript;Python;SQL;TypeScript,24,Male
+15.0,Master,Full-stack Developer,100 to 499 employees,Viet Nam,37000000,Monthly,VND,C#;Python;SQL;TypeScript,37,Other
+23.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,31666667,Monthly,VND,C#;C++;JavaScript,29,Male
+5.0,Bachelor,Embedded Engineer,10 to 19 employees,Viet Nam,20000000,Monthly,VND,C#;Java;JavaScript,24,Male
+2.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,10833333,Monthly,VND,C#;HTML/CSS;JavaScript;Python;SQL,24,Male
+10.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,75900000,Monthly,VND,C++;Go,30,Male
+4.0,Bachelor,Front-end Developer,500 to 999 employees,Viet Nam,11000000,Monthly,VND,Java,25,Male
+4.0,Bachelor,Embedded Engineer,20 to 99 employees,Viet Nam,11500000,Monthly,VND,Bash/Shell/PowerShell;JavaScript;SQL,23,Male
+13.0,High School,Data Scientist,"10,000 or more employees",Viet Nam,19950000,Monthly,VND,HTML/CSS;JavaScript;Ruby,28,Male
+10.0,Master,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,35000000,Monthly,VND,C;C++;Java;Python,32,Male
+3.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,16100000,Monthly,VND,JavaScript;Python,26,Male
+3.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,45000000,Monthly,VND,Go;HTML/CSS;JavaScript;TypeScript,36,Male
+6.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,17000000,Monthly,VND,HTML/CSS;JavaScript;TypeScript,30,Male
+13.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,30000000,Monthly,VND,C#,35,Other
+10.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,24000000,Monthly,VND,HTML/CSS;Java;JavaScript;PHP;Python,32,Male
+7.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,11000000,Monthly,VND,Python,23,Male
+7.0,Bachelor,Data Scientist,100 to 499 employees,Viet Nam,15600000,Monthly,VND,C;HTML/CSS;JavaScript;Python;VBA,28,Male
+15.0,Bachelor,Back-end Developer,500 to 999 employees,Viet Nam,40000000,Monthly,VND,Bash/Shell/PowerShell;C++;HTML/CSS;Java;JavaScript;TypeScript,35,Male
+6.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,27000000,Monthly,VND,Go;Java;Scala;SQL;TypeScript,27,Male
+1.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,8000000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL,24,Male
+3.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,9200000,Monthly,VND,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;Rust,23,Male
+4.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,18000000,Monthly,VND,,26,Other
+4.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,15000000,Monthly,VND,C#;HTML/CSS;Java;JavaScript;Python;SQL,26,Other
+6.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,15000000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;SQL,28,Other
+7.0,PhD,Data Scientist,100 to 499 employees,Viet Nam,88000000,Monthly,VND,,29,Other
+3.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,12000000,Monthly,VND,,25,Other
+8.0,Bachelor,Mobile Developer,"10,000 or more employees",Viet Nam,20000000,Monthly,VND,,30,Other
+3.0,High School,Embedded Engineer,100 to 499 employees,Viet Nam,13000000,Monthly,VND,C;C++,25,Other
+9.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,20000000,Monthly,VND,,31,Other
+8.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,16266950,Monthly,VND,Assembly;C;C#;C++;HTML/CSS;Java;JavaScript;PHP;SQL,30,Other
+7.0,Bachelor,Mobile Developer,10 to 19 employees,Viet Nam,15000000,Monthly,VND,Go;Java;JavaScript;Kotlin;Swift,26,Male
+2.0,Bachelor,Front-end Developer,"10,000 or more employees",Viet Nam,14000000,Monthly,VND,HTML/CSS;JavaScript,24,Male
+5.0,Bachelor,Mobile Developer,10 to 19 employees,Viet Nam,20000000,Monthly,VND,,27,Other
+8.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,30000000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,27,Male
+12.0,Master,Full-stack Developer,20 to 99 employees,Viet Nam,30000000,Monthly,VND,Bash/Shell/PowerShell;C#;C++;JavaScript;Python;Swift;TypeScript,27,Male
+21.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,52000000,Monthly,VND,C++;JavaScript,43,Male
+5.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,16100000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;SQL;TypeScript,25,Male
+15.0,High School,Game Developer,10 to 19 employees,Viet Nam,30000000,Monthly,VND,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Kotlin;Python;Ruby;SQL;TypeScript,28,Male
+12.0,High School,Mobile Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,Bash/Shell/PowerShell;C#;C++;HTML/CSS;Java;JavaScript;Kotlin;Python;Ruby;SQL,27,Male
+6.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,69000000,Monthly,VND,Bash/Shell/PowerShell;C++;Go;HTML/CSS;JavaScript;Python;SQL;TypeScript,22,Male
+18.0,Bachelor,DevOps,"1,000 to 4,999 employees",Viet Nam,70000000,Monthly,VND,C#;HTML/CSS;JavaScript;SQL;Swift,35,Male
+5.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,18500000,Monthly,VND,HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript,26,Male
+14.0,Bachelor,Embedded Engineer,10 to 19 employees,Viet Nam,23000000,Monthly,VND,Bash/Shell/PowerShell;C#;HTML/CSS,24,Male
+11.0,Bachelor,Mobile Developer,10 to 19 employees,Viet Nam,57500000,Monthly,VND,C#;HTML/CSS;Java;Kotlin;Python;SQL,29,Male
+6.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,12500000,Monthly,VND,C;C#;C++,25,Male
+5.0,Bachelor,DevOps,100 to 499 employees,Viet Nam,11000000,Monthly,VND,C;HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript;VBA,30,Male
+3.0,Bachelor,Embedded Engineer,10 to 19 employees,Viet Nam,38333333,Monthly,VND,Assembly;Bash/Shell/PowerShell;C,24,Male
+6.0,High School,Full-stack Developer,500 to 999 employees,Viet Nam,5300000,Monthly,VND,Go;HTML/CSS;Java;JavaScript;SQL,24,Male
+8.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,28000000,Monthly,VND,,30,Other
+7.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,16100000,Monthly,VND,,29,Other
+,High School,Data Scientist,"1,000 to 4,999 employees",Viet Nam,47000000,Monthly,VND,NOT PROVIDED,27,Male
+4.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,35000000,Monthly,VND,NOT PROVIDED,32,Male
+7.0,Bachelor,Mobile Developer,"10,000 or more employees",Viet Nam,70000000,Monthly,VND,NOT PROVIDED,29,Male
+10.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,25,Other
+13.0,Bachelor,DevOps,"1,000 to 4,999 employees",Viet Nam,12000000,Monthly,VND,NOT PROVIDED,19,Male
+7.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,41000000,Monthly,VND,NOT PROVIDED,20,Male
+6.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,15000000,Monthly,VND,NOT PROVIDED,27,Male
+10.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,33,Male
+5.0,Bachelor,DevOps,"10,000 or more employees",Viet Nam,57500000,Monthly,VND,NOT PROVIDED,37,Male
+,Bachelor,Data Scientist,10 to 19 employees,Viet Nam,9000000,Monthly,VND,NOT PROVIDED,24,Male
+3.0,High School,Front-end Developer,20 to 99 employees,Viet Nam,5000000,Monthly,VND,NOT PROVIDED,23,Male
+7.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,57500000,Monthly,VND,NOT PROVIDED,30,Male
+4.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,14000000,Monthly,VND,NOT PROVIDED,22,Male
+20.0,Bachelor,DevOps,20 to 99 employees,Viet Nam,100000000,Monthly,VND,NOT PROVIDED,34,Male
+4.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,32,Male
+15.0,High School,Full-stack Developer,"5,000 to 9,999 employees",Viet Nam,25000000,Monthly,VND,NOT PROVIDED,25,Male
+10.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,23000000,Monthly,VND,NOT PROVIDED,34,Male
+14.0,Master,Full-stack Developer,20 to 99 employees,Viet Nam,73000000,Monthly,VND,NOT PROVIDED,32,Male
+5.0,Bachelor,Mobile Developer,"1,000 to 4,999 employees",Viet Nam,15000000,Monthly,VND,NOT PROVIDED,20,Male
+8.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,27000000,Monthly,VND,NOT PROVIDED,24,Male
+8.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,15000000,Monthly,VND,NOT PROVIDED,28,Male
+12.0,Bachelor,Embedded Engineer,"1,000 to 4,999 employees",Viet Nam,52500000,Monthly,VND,NOT PROVIDED,32,Male
+,Bachelor,Full-stack Developer,"10,000 or more employees",Viet Nam,20000000,Monthly,VND,NOT PROVIDED,33,Male
+6.0,Bachelor,Data Scientist,100 to 499 employees,Viet Nam,23000000,Monthly,VND,NOT PROVIDED,19,Male
+10.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,73600000,Monthly,VND,NOT PROVIDED,24,Male
+10.0,Bachelor,Full-stack Developer,"5,000 to 9,999 employees",Viet Nam,27000000,Monthly,VND,NOT PROVIDED,25,Male
+4.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,41400000,Monthly,VND,NOT PROVIDED,30,Male
+4.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,14000000,Monthly,VND,NOT PROVIDED,21,Male
+13.0,Bachelor,Embedded Engineer,100 to 499 employees,Viet Nam,84166667,Monthly,VND,NOT PROVIDED,26,Male
+10.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,26000000,Monthly,VND,NOT PROVIDED,21,Male
+4.0,Bachelor,Embedded Engineer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,22,Male
+5.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,7745000,Monthly,VND,NOT PROVIDED,22,Male
+6.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,19,Male
+4.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,13000000,Monthly,VND,NOT PROVIDED,22,Male
+3.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,17000000,Monthly,VND,NOT PROVIDED,28,Female
+10.0,Master,Mobile Developer,"1,000 to 4,999 employees",Viet Nam,47000000,Monthly,VND,NOT PROVIDED,36,Male
+3.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,8000000,Monthly,VND,NOT PROVIDED,27,Male
+4.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,26,Male
+7.0,Bachelor,DevOps,"10,000 or more employees",Viet Nam,18000000,Monthly,VND,NOT PROVIDED,31,Male
+8.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,40000000,Monthly,VND,NOT PROVIDED,26,Male
+15.0,Bachelor,Mobile Developer,10 to 19 employees,Viet Nam,54000000,Monthly,VND,NOT PROVIDED,34,Male
+7.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,80960000,Monthly,VND,NOT PROVIDED,31,Male
+5.0,Bachelor,Front-end Developer,100 to 499 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,30,Male
+2.0,High School,Front-end Developer,20 to 99 employees,Viet Nam,35000000,Monthly,VND,NOT PROVIDED,32,Male
+1.0,Bachelor,DevOps,20 to 99 employees,Viet Nam,5000000,Monthly,VND,NOT PROVIDED,20,Male
+0.0,High School,Front-end Developer,100 to 499 employees,Viet Nam,7000000,Monthly,VND,NOT PROVIDED,19,Male
+4.0,Bachelor,Front-end Developer,500 to 999 employees,Viet Nam,51000000,Monthly,VND,NOT PROVIDED,25,Male
+6.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,27000000,Monthly,VND,NOT PROVIDED,27,Male
+8.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,34166667,Monthly,VND,NOT PROVIDED,27,Male
+13.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,37,Male
+10.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,27,Male
+4.0,Master,Data Scientist,100 to 499 employees,Viet Nam,32000000,Monthly,VND,NOT PROVIDED,29,Male
+3.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,21,Male
+5.0,Bachelor,Game Developer,100 to 499 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,27,Male
+13.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,34500000,Monthly,VND,NOT PROVIDED,33,Male
+20.0,Master,Full-stack Developer,20 to 99 employees,Viet Nam,45000000,Monthly,VND,NOT PROVIDED,44,Male
+5.0,Bachelor,Front-end Developer,"1,000 to 4,999 employees",Viet Nam,9000000,Monthly,VND,NOT PROVIDED,24,Male
+7.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,24000000,Monthly,VND,NOT PROVIDED,34,Male
+8.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,32200000,Monthly,VND,NOT PROVIDED,33,Male
+6.0,High School,Mobile Developer,100 to 499 employees,Viet Nam,13110000,Monthly,VND,NOT PROVIDED,18,Male
+7.0,Master,Full-stack Developer,"5,000 to 9,999 employees",Viet Nam,125000000,Monthly,VND,NOT PROVIDED,27,Male
+4.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,30000000,Monthly,VND,NOT PROVIDED,27,Male
+19.0,Bachelor,DevOps,20 to 99 employees,Viet Nam,90000000,Monthly,VND,NOT PROVIDED,36,Male
+10.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,5000000,Monthly,VND,NOT PROVIDED,29,Male
+5.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,20,Male
+10.0,Bachelor,Front-end Developer,"5,000 to 9,999 employees",Viet Nam,26666667,Monthly,VND,NOT PROVIDED,26,Male
+7.0,High School,Front-end Developer,,Viet Nam,15000000,Monthly,VND,NOT PROVIDED,34,Female
+4.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,40000000,Monthly,VND,NOT PROVIDED,26,Male
+6.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,8000000,Monthly,VND,NOT PROVIDED,26,Male
+3.0,High School,Data Scientist,100 to 499 employees,Viet Nam,16500000,Monthly,VND,NOT PROVIDED,18,Male
+16.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,50000000,Monthly,VND,NOT PROVIDED,31,Male
+2.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,13000000,Monthly,VND,NOT PROVIDED,27,Male
+6.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,13000000,Monthly,VND,NOT PROVIDED,22,Male
+1.0,High School,Front-end Developer,10 to 19 employees,Viet Nam,8000000,Monthly,VND,NOT PROVIDED,20,Male
+6.0,Bachelor,Back-end Developer,Less than 20 employees,Viet Nam,70000000,Monthly,VND,NOT PROVIDED,18,Male
+10.0,Bachelor,Data Scientist,100 to 499 employees,Viet Nam,15000000,Monthly,VND,NOT PROVIDED,18,Male
+10.0,High School,DevOps,500 to 999 employees,Viet Nam,100000000,Monthly,VND,NOT PROVIDED,31,Male
+3.0,High School,Full-stack Developer,"10,000 or more employees",Viet Nam,12500000,Monthly,VND,NOT PROVIDED,19,Male
+11.0,PhD,Data Scientist,500 to 999 employees,Viet Nam,55000000,Monthly,VND,NOT PROVIDED,25,Male
+3.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,46000000,Monthly,VND,NOT PROVIDED,19,Male
+5.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,21000000,Monthly,VND,NOT PROVIDED,30,Male
+5.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,16000000,Monthly,VND,NOT PROVIDED,20,Male
+8.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,30000000,Monthly,VND,NOT PROVIDED,19,Male
+10.0,High School,Full-stack Developer,"10,000 or more employees",Viet Nam,11000000,Monthly,VND,NOT PROVIDED,20,Male
+4.0,Bachelor,Data Scientist,100 to 499 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,18,Male
+6.0,High School,Front-end Developer,100 to 499 employees,Viet Nam,30000000,Monthly,VND,NOT PROVIDED,32,Male
+4.0,High School,Full-stack Developer,500 to 999 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,23,Male
+8.0,High School,Embedded Engineer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,23,Male
+5.0,Bachelor,DevOps,500 to 999 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,21,Male
+7.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,30000000,Monthly,VND,NOT PROVIDED,34,Female
+5.0,Bachelor,Data Scientist,100 to 499 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,18,Male
+14.0,High School,Data Scientist,"1,000 to 4,999 employees",Viet Nam,17564718,Monthly,VND,NOT PROVIDED,29,Male
+0.0,High School,Data Scientist,"1,000 to 4,999 employees",Viet Nam,29071991,Monthly,VND,NOT PROVIDED,25,Male
+5.0,Bachelor,Front-end Developer,10 to 19 employees,Viet Nam,5000000,Monthly,VND,NOT PROVIDED,34,Male
+11.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,45000000,Monthly,VND,NOT PROVIDED,31,Male
+15.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,80500000,Monthly,VND,NOT PROVIDED,28,Male
+6.0,High School,Front-end Developer,10 to 19 employees,Viet Nam,14000000,Monthly,VND,NOT PROVIDED,21,Male
+7.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,23000000,Monthly,VND,NOT PROVIDED,27,Male
+3.0,Master,Front-end Developer,20 to 99 employees,Viet Nam,5000000,Monthly,VND,NOT PROVIDED,24,Male
+10.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,30000000,Monthly,VND,NOT PROVIDED,26,Male
+5.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,12000000,Monthly,VND,NOT PROVIDED,21,Male
+8.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,88000000,Monthly,VND,NOT PROVIDED,25,Male
+6.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,36800000,Monthly,VND,NOT PROVIDED,31,Male
+9.0,Bachelor,Front-end Developer,100 to 499 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,34,Male
+11.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,33000000,Monthly,VND,NOT PROVIDED,33,Male
+5.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,8000000,Monthly,VND,NOT PROVIDED,23,Male
+12.0,Master,Mobile Developer,20 to 99 employees,Viet Nam,30000000,Monthly,VND,NOT PROVIDED,32,Male
+7.0,Bachelor,Back-end Developer,"5,000 to 9,999 employees",Viet Nam,20000000,Monthly,VND,NOT PROVIDED,34,Male
+10.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,16666667,Monthly,VND,NOT PROVIDED,28,Male
+7.0,Bachelor,Mobile Developer,10 to 19 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,33,Male
+11.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,78000000,Monthly,VND,NOT PROVIDED,28,Male
+0.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,5000000,Monthly,VND,NOT PROVIDED,31,Male
+12.0,Master,Full-stack Developer,20 to 99 employees,Viet Nam,57800000,Monthly,VND,NOT PROVIDED,25,Male
+7.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,35000000,Monthly,VND,NOT PROVIDED,23,Male
+4.0,Bachelor,Mobile Developer,"1,000 to 4,999 employees",Viet Nam,9500000,Monthly,VND,NOT PROVIDED,22,Male
+0.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,21000000,Monthly,VND,NOT PROVIDED,28,Male
+9.0,Bachelor,Front-end Developer,100 to 499 employees,Viet Nam,50000000,Monthly,VND,NOT PROVIDED,33,Male
+12.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,34,Male
+13.0,Bachelor,DevOps,"1,000 to 4,999 employees",Viet Nam,43700000,Monthly,VND,NOT PROVIDED,27,Male
+5.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,40000000,Monthly,VND,NOT PROVIDED,28,Male
+3.0,High School,Front-end Developer,100 to 499 employees,Viet Nam,23000000,Monthly,VND,NOT PROVIDED,23,Male
+4.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,16000000,Monthly,VND,NOT PROVIDED,18,Male
+15.0,High School,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,47000000,Monthly,VND,NOT PROVIDED,29,Male
+8.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,35000000,Monthly,VND,NOT PROVIDED,25,Male
+6.0,Bachelor,Full-stack Developer,"10,000 or more employees",Viet Nam,41666667,Monthly,VND,NOT PROVIDED,34,Male
+5.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,17000000,Monthly,VND,NOT PROVIDED,18,Male
+13.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,80000000,Monthly,VND,NOT PROVIDED,28,Male
+9.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,23000000,Monthly,VND,NOT PROVIDED,23,Male
+8.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,12000000,Monthly,VND,NOT PROVIDED,24,Male
+4.0,Bachelor,Mobile Developer,"1,000 to 4,999 employees",Viet Nam,14000000,Monthly,VND,NOT PROVIDED,24,Male
+5.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,40000000,Monthly,VND,NOT PROVIDED,31,Male
+3.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,17000000,Monthly,VND,NOT PROVIDED,20,Male
+7.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,50000000,Monthly,VND,NOT PROVIDED,34,Male
+12.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,28000000,Monthly,VND,NOT PROVIDED,25,Male
+7.0,High School,Front-end Developer,"1,000 to 4,999 employees",Viet Nam,8000000,Monthly,VND,NOT PROVIDED,29,Male
+4.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,18000000,Monthly,VND,NOT PROVIDED,23,Male
+3.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,6300000,Monthly,VND,NOT PROVIDED,30,Male
+5.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,26000000,Monthly,VND,NOT PROVIDED,32,Male
+5.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,12000000,Monthly,VND,NOT PROVIDED,32,Male
+7.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,17500000,Monthly,VND,NOT PROVIDED,26,Male
+50.0,High School,Full-stack Developer,Less than 20 employees,Viet Nam,113528000,Monthly,VND,NOT PROVIDED,68,Other
+11.0,High School,Game Developer,20 to 99 employees,Viet Nam,45967684,Monthly,VND,NOT PROVIDED,30,Male
+20.0,Bachelor,DevOps,20 to 99 employees,Viet Nam,364166667,Monthly,VND,NOT PROVIDED,36,Male
+1.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,9583333,Monthly,VND,NOT PROVIDED,23,Male
+12.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,35000000,Monthly,VND,NOT PROVIDED,31,Male
+7.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,53000000,Monthly,VND,NOT PROVIDED,30,Male
+5.0,High School,DevOps,"1,000 to 4,999 employees",Viet Nam,16100000,Monthly,VND,NOT PROVIDED,22,Other
+6.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,57500000,Monthly,VND,NOT PROVIDED,31,Male
+3.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,11000000,Monthly,VND,NOT PROVIDED,23,Male
+4.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,21000000,Monthly,VND,NOT PROVIDED,23,Male
+5.0,Bachelor,Full-stack Developer,"5,000 to 9,999 employees",Viet Nam,37000000,Monthly,VND,NOT PROVIDED,29,Male
+4.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,34,Male
+12.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,159500000,Monthly,VND,NOT PROVIDED,34,Male
+5.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,19,Male
+10.0,Bachelor,Embedded Engineer,"10,000 or more employees",Viet Nam,276000000,Monthly,VND,NOT PROVIDED,29,Male
+11.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,50000000,Monthly,VND,NOT PROVIDED,22,Male
+8.0,Bachelor,Game Developer,"1,000 to 4,999 employees",Viet Nam,30000000,Monthly,VND,NOT PROVIDED,25,Male
+2.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,16100000,Monthly,VND,NOT PROVIDED,31,Male
+11.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,46000000,Monthly,VND,NOT PROVIDED,34,Male
+4.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,27,Male
+3.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,23000000,Monthly,VND,NOT PROVIDED,23,Male
+6.0,Bachelor,Front-end Developer,"1,000 to 4,999 employees",Viet Nam,14000000,Monthly,VND,NOT PROVIDED,21,Male
+6.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,32200000,Monthly,VND,NOT PROVIDED,24,Male
+5.0,Master,Back-end Developer,20 to 99 employees,Viet Nam,4000000,Monthly,VND,NOT PROVIDED,19,Male
+12.0,Bachelor,Back-end Developer,500 to 999 employees,Viet Nam,115000000,Monthly,VND,NOT PROVIDED,34,Male
+7.0,High School,Data Scientist,100 to 499 employees,Viet Nam,30000000,Monthly,VND,NOT PROVIDED,25,Male
+7.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,48000000,Monthly,VND,NOT PROVIDED,31,Male
+6.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,32,Male
+10.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,21,Male
+4.0,Master,DevOps,100 to 499 employees,Viet Nam,12000000,Monthly,VND,NOT PROVIDED,21,Male
+12.0,Master,Back-end Developer,100 to 499 employees,Viet Nam,120000000,Monthly,VND,NOT PROVIDED,34,Male
+8.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,35000000,Monthly,VND,NOT PROVIDED,25,Male
+8.0,Bachelor,Mobile Developer,500 to 999 employees,Viet Nam,40000000,Monthly,VND,NOT PROVIDED,30,Male
+10.0,Master,Full-stack Developer,10 to 19 employees,Viet Nam,31958333,Monthly,VND,NOT PROVIDED,29,Male
+35.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,80000000,Monthly,VND,NOT PROVIDED,49,Male
+10.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,51000000,Monthly,VND,NOT PROVIDED,26,Male
+9.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,13000000,Monthly,VND,NOT PROVIDED,29,Male
+5.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,12000000,Monthly,VND,NOT PROVIDED,21,Male
+8.0,Bachelor,DevOps,"1,000 to 4,999 employees",Viet Nam,18400000,Monthly,VND,NOT PROVIDED,32,Male
+3.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,27,Male
+3.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,9000000,Monthly,VND,NOT PROVIDED,18,Male
+10.0,Bachelor,DevOps,100 to 499 employees,Viet Nam,15000000,Monthly,VND,NOT PROVIDED,32,Male
+4.0,Bachelor,DevOps,"1,000 to 4,999 employees",Viet Nam,44000000,Monthly,VND,NOT PROVIDED,28,Male
+7.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,38333333,Monthly,VND,NOT PROVIDED,32,Male
+8.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,18000000,Monthly,VND,NOT PROVIDED,34,Male
+4.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,6900000,Monthly,VND,NOT PROVIDED,23,Male
+5.0,Bachelor,Back-end Developer,"5,000 to 9,999 employees",Viet Nam,9890000,Monthly,VND,NOT PROVIDED,21,Male
+4.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,9000000,Monthly,VND,NOT PROVIDED,23,Male
+4.0,Master,Full-stack Developer,10 to 19 employees,Viet Nam,75000000,Monthly,VND,NOT PROVIDED,22,Male
+5.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,8500000,Monthly,VND,NOT PROVIDED,20,Male
+12.0,Bachelor,Back-end Developer,"10,000 or more employees",Viet Nam,126500000,Monthly,VND,NOT PROVIDED,34,Male
+4.0,High School,Data Scientist,10 to 19 employees,Viet Nam,9000000,Monthly,VND,NOT PROVIDED,22,Male
+10.0,Bachelor,Mobile Developer,10 to 19 employees,Viet Nam,23000000,Monthly,VND,NOT PROVIDED,30,Male
+9.0,Bachelor,Front-end Developer,10 to 19 employees,Viet Nam,50000000,Monthly,VND,NOT PROVIDED,34,Male
+2.0,High School,Mobile Developer,100 to 499 employees,Viet Nam,32000000,Monthly,VND,NOT PROVIDED,32,Male
+5.0,High School,DevOps,"1,000 to 4,999 employees",Viet Nam,6100000,Monthly,VND,NOT PROVIDED,19,Male
+5.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,1166667,Monthly,VND,NOT PROVIDED,24,Male
+5.0,Bachelor,Front-end Developer,500 to 999 employees,Viet Nam,61640000,Monthly,VND,NOT PROVIDED,32,Male
+16.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,40000000,Monthly,VND,NOT PROVIDED,32,Male
+9.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,19,Male
+13.0,Master,Back-end Developer,20 to 99 employees,Viet Nam,83333333,Monthly,VND,NOT PROVIDED,30,Male
+2.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,9583333,Monthly,VND,NOT PROVIDED,18,Male
+5.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,15000000,Monthly,VND,NOT PROVIDED,22,Male
+20.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,120000000,Monthly,VND,NOT PROVIDED,38,Male
+1.0,Master,DevOps,"5,000 to 9,999 employees",Viet Nam,7360000,Monthly,VND,NOT PROVIDED,19,Male
+5.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,33333333,Monthly,VND,NOT PROVIDED,30,Male
+6.0,Bachelor,Embedded Engineer,Less than 20 employees,Viet Nam,20833333,Monthly,VND,NOT PROVIDED,32,Male
+14.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,46000000,Monthly,VND,NOT PROVIDED,39,Male
+5.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,31750000,Monthly,VND,NOT PROVIDED,28,Male
+6.0,Bachelor,Data Scientist,10 to 19 employees,Viet Nam,57500000,Monthly,VND,NOT PROVIDED,23,Male
+4.0,Bachelor,Full-stack Developer,Less than 20 employees,Viet Nam,16700000,Monthly,VND,NOT PROVIDED,23,Male
+3.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,25,Male
+4.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,16000000,Monthly,VND,NOT PROVIDED,18,Male
+3.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,24000000,Monthly,VND,NOT PROVIDED,18,Other
+4.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,27600000,Monthly,VND,NOT PROVIDED,20,Other
+5.0,Master,Data Scientist,10 to 19 employees,Viet Nam,47916667,Monthly,VND,NOT PROVIDED,25,Other
+14.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,166666667,Monthly,VND,NOT PROVIDED,34,Other
+7.0,Bachelor,Data Scientist,"1,000 to 4,999 employees",Viet Nam,23000000,Monthly,VND,NOT PROVIDED,24,Other
+5.0,Bachelor,Full-stack Developer,"5,000 to 9,999 employees",Viet Nam,208333333,Monthly,VND,NOT PROVIDED,27,Other
+1.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,125000000,Monthly,VND,NOT PROVIDED,29,Other
+6.0,Bachelor,DevOps,100 to 499 employees,Viet Nam,83333333,Monthly,VND,NOT PROVIDED,18,Other
+16.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,83333333,Monthly,VND,NOT PROVIDED,34,Other
+14.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,92000000,Monthly,VND,NOT PROVIDED,34,Other
+13.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,70833333,Monthly,VND,NOT PROVIDED,31,Other
+6.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,23000000,Monthly,VND,NOT PROVIDED,24,Other
+5.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,24000000,Monthly,VND,NOT PROVIDED,34,Other
+11.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,66666667,Monthly,VND,NOT PROVIDED,31,Other
+7.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,184000000,Monthly,VND,NOT PROVIDED,33,Other
+9.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,241000000,Monthly,VND,NOT PROVIDED,34,Other
+5.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,41666667,Monthly,VND,NOT PROVIDED,27,Other
+17.0,High School,Front-end Developer,500 to 999 employees,Viet Nam,70083333,Monthly,VND,NOT PROVIDED,34,Other
+7.0,Bachelor,Front-end Developer,"1,000 to 4,999 employees",Viet Nam,43333333,Monthly,VND,NOT PROVIDED,33,Other
+3.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,455000000,Monthly,VND,NOT PROVIDED,26,Other
+12.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,166666667,Monthly,VND,NOT PROVIDED,33,Other
+10.0,Bachelor,Full-stack Developer,"5,000 to 9,999 employees",Viet Nam,66250000,Monthly,VND,NOT PROVIDED,31,Other
+7.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,50000000,Monthly,VND,NOT PROVIDED,34,Other
+4.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,30000000,Monthly,VND,NOT PROVIDED,30,Other
+7.0,Bachelor,Mobile Developer,500 to 999 employees,Viet Nam,210500000,Monthly,VND,NOT PROVIDED,30,Other
+10.0,Master,Full-stack Developer,500 to 999 employees,Viet Nam,105603750,Monthly,VND,NOT PROVIDED,34,Other
+7.0,Bachelor,Full-stack Developer,"5,000 to 9,999 employees",Viet Nam,30000000,Monthly,VND,NOT PROVIDED,30,Other
+8.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,200000000,Monthly,VND,NOT PROVIDED,34,Other
+5.0,High School,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,169000000,Monthly,VND,NOT PROVIDED,21,Other
+11.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,102916667,Monthly,VND,NOT PROVIDED,34,Other
+9.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,29166667,Monthly,VND,NOT PROVIDED,34,Other
+4.0,High School,Front-end Developer,"10,000 or more employees",Viet Nam,11666667,Monthly,VND,NOT PROVIDED,20,Other
+8.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,62291667,Monthly,VND,NOT PROVIDED,25,Other
+7.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,16790000,Monthly,VND,NOT PROVIDED,24,Other
+5.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,83333333,Monthly,VND,NOT PROVIDED,30,Other
+10.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,40041667,Monthly,VND,NOT PROVIDED,24,Other
+6.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,23,Other
+3.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,8500000,Monthly,VND,NOT PROVIDED,19,Other
+5.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,33,Other
+20.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,145833333,Monthly,VND,NOT PROVIDED,35,Other
+1.0,Bachelor,Data Scientist,100 to 499 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,23,Other
+4.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,13000000,Monthly,VND,NOT PROVIDED,31,Other
+5.0,Bachelor,DevOps,500 to 999 employees,Viet Nam,23000000,Monthly,VND,NOT PROVIDED,19,Other
+11.0,High School,Back-end Developer,500 to 999 employees,Viet Nam,46666667,Monthly,VND,NOT PROVIDED,34,Other
+4.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,21,Other
+6.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,43333333,Monthly,VND,NOT PROVIDED,25,Other
+7.0,Master,Mobile Developer,20 to 99 employees,Viet Nam,69000000,Monthly,VND,NOT PROVIDED,25,Other
+5.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,24666667,Monthly,VND,NOT PROVIDED,27,Other
+0.0,Bachelor,Back-end Developer,500 to 999 employees,Viet Nam,15333333,Monthly,VND,NOT PROVIDED,29,Other
+12.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,105416667,Monthly,VND,NOT PROVIDED,34,Other
+6.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,57500000,Monthly,VND,NOT PROVIDED,26,Other
+6.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,19500000,Monthly,VND,NOT PROVIDED,23,Other
+6.0,High School,Embedded Engineer,"5,000 to 9,999 employees",Viet Nam,11666667,Monthly,VND,NOT PROVIDED,21,Other
+6.0,Bachelor,Data Scientist,500 to 999 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,22,Other
+10.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,11500000,Monthly,VND,NOT PROVIDED,30,Other
+7.0,Bachelor,Front-end Developer,"1,000 to 4,999 employees",Viet Nam,17208333,Monthly,VND,NOT PROVIDED,22,Other
+9.0,Bachelor,Embedded Engineer,10 to 19 employees,Viet Nam,12000000,Monthly,VND,NOT PROVIDED,20,Other
+5.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,19826087,Monthly,VND,NOT PROVIDED,32,Other
+10.0,Bachelor,Mobile Developer,"1,000 to 4,999 employees",Viet Nam,170000000,Monthly,VND,NOT PROVIDED,32,Other
+20.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,83333333,Monthly,VND,NOT PROVIDED,39,Other
+8.0,Bachelor,Front-end Developer,100 to 499 employees,Viet Nam,58333333,Monthly,VND,NOT PROVIDED,26,Other
+3.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,12500000,Monthly,VND,NOT PROVIDED,21,Other
+0.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,29,Other
+8.0,Master,Data Scientist,20 to 99 employees,Viet Nam,32500000,Monthly,VND,NOT PROVIDED,30,Other
+6.0,Bachelor,Back-end Developer,"10,000 or more employees",Viet Nam,130000000,Monthly,VND,NOT PROVIDED,34,Other
+4.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,22,Other
+9.0,Bachelor,Front-end Developer,"1,000 to 4,999 employees",Viet Nam,65000000,Monthly,VND,NOT PROVIDED,29,Other
+9.0,Bachelor,Mobile Developer,"10,000 or more employees",Viet Nam,90083333,Monthly,VND,NOT PROVIDED,31,Other
+6.0,Bachelor,Front-end Developer,"10,000 or more employees",Viet Nam,150000000,Monthly,VND,NOT PROVIDED,29,Other
+2.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,13333333,Monthly,VND,NOT PROVIDED,31,Other
+8.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,20833333,Monthly,VND,NOT PROVIDED,21,Other
+16.0,Master,Mobile Developer,20 to 99 employees,Viet Nam,86666667,Monthly,VND,NOT PROVIDED,34,Other
+5.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,40000000,Monthly,VND,NOT PROVIDED,24,Other
+6.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,20833333,Monthly,VND,NOT PROVIDED,19,Other
+7.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,40000000,Monthly,VND,NOT PROVIDED,19,Other
+,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,29900000,Monthly,VND,NOT PROVIDED,20,Other
+4.0,Master,Data Scientist,500 to 999 employees,Viet Nam,11000000,Monthly,VND,NOT PROVIDED,25,Other
+6.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,50000000,Monthly,VND,NOT PROVIDED,30,Other
+10.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,75833333,Monthly,VND,NOT PROVIDED,33,Other
+4.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,20017000,Monthly,VND,NOT PROVIDED,23,Other
+11.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,45833333,Monthly,VND,NOT PROVIDED,29,Other
+7.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,28,Other
+18.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,120166667,Monthly,VND,NOT PROVIDED,34,Other
+4.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,18333333,Monthly,VND,NOT PROVIDED,18,Other
+5.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,21666667,Monthly,VND,NOT PROVIDED,34,Other
+7.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,17250000,Monthly,VND,NOT PROVIDED,24,Other
+6.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,16666667,Monthly,VND,NOT PROVIDED,24,Other
+7.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,80000000,Monthly,VND,NOT PROVIDED,31,Other
+5.0,High School,Back-end Developer,20 to 99 employees,Viet Nam,30833333,Monthly,VND,NOT PROVIDED,24,Other
+5.0,Bachelor,Back-end Developer,500 to 999 employees,Viet Nam,41166667,Monthly,VND,NOT PROVIDED,32,Other
+7.0,Bachelor,Data Scientist,"10,000 or more employees",Viet Nam,24000000,Monthly,VND,NOT PROVIDED,24,Other
+4.0,High School,Back-end Developer,10 to 19 employees,Viet Nam,35000000,Monthly,VND,NOT PROVIDED,30,Other
+3.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,17250000,Monthly,VND,NOT PROVIDED,22,Other
+6.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,31,Other
+6.0,Bachelor,DevOps,10 to 19 employees,Viet Nam,16666667,Monthly,VND,NOT PROVIDED,24,Other
+5.0,Bachelor,Data Scientist,"10,000 or more employees",Viet Nam,28000000,Monthly,VND,NOT PROVIDED,31,Other
+7.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,40000000,Monthly,VND,NOT PROVIDED,29,Other
+2.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,8500000,Monthly,VND,NOT PROVIDED,21,Other
+8.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,24000000,Monthly,VND,NOT PROVIDED,25,Other
+5.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,6750000,Monthly,VND,NOT PROVIDED,18,Other
+13.0,PhD,Data Scientist,100 to 499 employees,Viet Nam,159083333,Monthly,VND,NOT PROVIDED,37,Other
+8.0,Bachelor,Full-stack Developer,"10,000 or more employees",Viet Nam,26666667,Monthly,VND,NOT PROVIDED,28,Other
+6.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,21850000,Monthly,VND,NOT PROVIDED,24,Other
+13.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,57500000,Monthly,VND,NOT PROVIDED,40,Other
+4.0,High School,Mobile Developer,100 to 499 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,22,Other
+13.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,220000000,Monthly,VND,NOT PROVIDED,34,Other
+14.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,40083333,Monthly,VND,NOT PROVIDED,34,Other
+12.0,High School,Front-end Developer,100 to 499 employees,Viet Nam,65000000,Monthly,VND,NOT PROVIDED,29,Other
+3.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,46000000,Monthly,VND,NOT PROVIDED,34,Other
+3.0,High School,Full-stack Developer,20 to 99 employees,Viet Nam,12000000,Monthly,VND,NOT PROVIDED,20,Other
+10.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,33333333,Monthly,VND,NOT PROVIDED,25,Other
+10.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,60000000,Monthly,VND,NOT PROVIDED,31,Other
+7.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,54166667,Monthly,VND,NOT PROVIDED,25,Other
+8.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,23000000,Monthly,VND,NOT PROVIDED,29,Other
+0.0,Bachelor,Full-stack Developer,"10,000 or more employees",Viet Nam,16666667,Monthly,VND,NOT PROVIDED,22,Other
+8.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,29166667,Monthly,VND,NOT PROVIDED,24,Other
+5.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,20700000,Monthly,VND,NOT PROVIDED,30,Other
+5.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,27500000,Monthly,VND,NOT PROVIDED,27,Other
+9.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,33333333,Monthly,VND,NOT PROVIDED,28,Other
+8.0,Bachelor,Back-end Developer,Less than 20 employees,Viet Nam,46666667,Monthly,VND,NOT PROVIDED,21,Other
+8.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,31916667,Monthly,VND,NOT PROVIDED,31,Other
+5.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,11000000,Monthly,VND,NOT PROVIDED,21,Other
+8.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,29,Other
+5.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,30000000,Monthly,VND,NOT PROVIDED,24,Other
+6.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,53128000,Monthly,VND,NOT PROVIDED,25,Other
+0.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,13333333,Monthly,VND,NOT PROVIDED,21,Other
+5.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,22,Other
+10.0,Master,Full-stack Developer,10 to 19 employees,Viet Nam,15000000,Monthly,VND,NOT PROVIDED,25,Other
+7.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,17333333,Monthly,VND,NOT PROVIDED,24,Other
+7.0,Bachelor,DevOps,20 to 99 employees,Viet Nam,30000000,Monthly,VND,NOT PROVIDED,21,Other
+10.0,Master,Full-stack Developer,"10,000 or more employees",Viet Nam,24916667,Monthly,VND,NOT PROVIDED,29,Other
+15.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,133333333,Monthly,VND,NOT PROVIDED,34,Other
+10.0,Bachelor,DevOps,"10,000 or more employees",Viet Nam,25000000,Monthly,VND,NOT PROVIDED,25,Other
+8.0,Bachelor,Front-end Developer,10 to 19 employees,Viet Nam,30000000,Monthly,VND,NOT PROVIDED,31,Other
+6.0,Bachelor,DevOps,20 to 99 employees,Viet Nam,16666667,Monthly,VND,NOT PROVIDED,23,Other
+9.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,35000000,Monthly,VND,NOT PROVIDED,28,Other
+5.0,Bachelor,Embedded Engineer,20 to 99 employees,Viet Nam,16666667,Monthly,VND,NOT PROVIDED,19,Other
+11.0,Bachelor,Data Scientist,100 to 499 employees,Viet Nam,19166667,Monthly,VND,NOT PROVIDED,19,Other
+11.0,Master,Back-end Developer,100 to 499 employees,Viet Nam,54166667,Monthly,VND,NOT PROVIDED,31,Other
+15.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,99666667,Monthly,VND,NOT PROVIDED,34,Other
+14.0,Bachelor,Full-stack Developer,Less than 20 employees,Viet Nam,38333333,Monthly,VND,NOT PROVIDED,28,Other
+5.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,22,Other
+4.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,33333333,Monthly,VND,NOT PROVIDED,20,Other
+5.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,37500000,Monthly,VND,NOT PROVIDED,21,Other
+6.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,15000000,Monthly,VND,NOT PROVIDED,23,Other
+5.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,24916667,Monthly,VND,NOT PROVIDED,24,Other
+14.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,100000000,Monthly,VND,NOT PROVIDED,30,Other
+6.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,30,Other
+5.0,Master,Back-end Developer,"10,000 or more employees",Viet Nam,25000000,Monthly,VND,NOT PROVIDED,33,Other
+11.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,100000000,Monthly,VND,NOT PROVIDED,26,Other
+9.0,Bachelor,Mobile Developer,Less than 20 employees,Viet Nam,10833333,Monthly,VND,NOT PROVIDED,22,Other
+10.0,Bachelor,Back-end Developer,"10,000 or more employees",Viet Nam,108291667,Monthly,VND,NOT PROVIDED,32,Other
+8.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,79861111,Monthly,VND,NOT PROVIDED,34,Other
+3.0,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,11500000,Monthly,VND,NOT PROVIDED,20,Other
+9.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,26,Other
+6.0,Bachelor,Full-stack Developer,"5,000 to 9,999 employees",Viet Nam,208333333,Monthly,VND,NOT PROVIDED,33,Other
+16.0,Bachelor,Data Scientist,10 to 19 employees,Viet Nam,184000000,Monthly,VND,NOT PROVIDED,27,Other
+10.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,41666667,Monthly,VND,NOT PROVIDED,30,Other
+9.0,Master,Full-stack Developer,10 to 19 employees,Viet Nam,41666667,Monthly,VND,NOT PROVIDED,25,Other
+18.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,70000000,Monthly,VND,NOT PROVIDED,27,Other
+8.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,15000000,Monthly,VND,NOT PROVIDED,21,Other
+6.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,66666667,Monthly,VND,NOT PROVIDED,22,Other
+12.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,75000000,Monthly,VND,NOT PROVIDED,27,Other
+5.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,33,Other
+10.0,Bachelor,Front-end Developer,"5,000 to 9,999 employees",Viet Nam,72500000,Monthly,VND,NOT PROVIDED,27,Other
+5.0,Bachelor,Game Developer,20 to 99 employees,Viet Nam,144000000,Monthly,VND,NOT PROVIDED,31,Other
+6.0,Bachelor,Full-stack Developer,Less than 20 employees,Viet Nam,69000000,Monthly,VND,NOT PROVIDED,24,Other
+12.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,15833333,Monthly,VND,NOT PROVIDED,26,Other
+5.0,Bachelor,Back-end Developer,"5,000 to 9,999 employees",Viet Nam,16250000,Monthly,VND,NOT PROVIDED,31,Other
+10.0,Bachelor,Mobile Developer,10 to 19 employees,Viet Nam,35750000,Monthly,VND,NOT PROVIDED,33,Other
+8.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,24,Other
+6.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,17000000,Monthly,VND,NOT PROVIDED,18,Other
+4.0,High School,Back-end Developer,100 to 499 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,22,Other
+6.0,Bachelor,Embedded Engineer,10 to 19 employees,Viet Nam,40000000,Monthly,VND,NOT PROVIDED,25,Other
+10.0,Bachelor,Full-stack Developer,100 to 499 employees,Viet Nam,29166667,Monthly,VND,NOT PROVIDED,33,Other
+7.0,Bachelor,Back-end Developer,"1,000 to 4,999 employees",Viet Nam,16666667,Monthly,VND,NOT PROVIDED,21,Other
+12.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,33333333,Monthly,VND,NOT PROVIDED,36,Other
+12.0,High School,Back-end Developer,Less than 20 employees,Viet Nam,600000000,Monthly,VND,NOT PROVIDED,41,Other
+7.0,Bachelor,Full-stack Developer,Less than 20 employees,Viet Nam,30449164,Monthly,VND,NOT PROVIDED,25,Other
+2.0,High School,Back-end Developer,Less than 20 employees,Viet Nam,6750000,Monthly,VND,NOT PROVIDED,24,Other
+17.0,High School,Front-end Developer,Less than 20 employees,Viet Nam,26750000,Monthly,VND,NOT PROVIDED,34,Other
+2.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,14166667,Monthly,VND,NOT PROVIDED,30,Other
+4.0,Bachelor,DevOps,20 to 99 employees,Viet Nam,48750000,Monthly,VND,NOT PROVIDED,32,Other
+3.0,High School,Full-stack Developer,Less than 20 employees,Viet Nam,6750000,Monthly,VND,NOT PROVIDED,19,Other
+6.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,33,Other
+8.0,Bachelor,Full-stack Developer,Less than 20 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,29,Other
+3.0,Bachelor,Front-end Developer,20 to 99 employees,Viet Nam,14400000,Monthly,VND,NOT PROVIDED,24,Other
+10.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,16666667,Monthly,VND,NOT PROVIDED,30,Other
+9.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,19,Other
+5.0,Bachelor,Front-end Developer,100 to 499 employees,Viet Nam,18000000,Monthly,VND,NOT PROVIDED,23,Other
+8.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,65000000,Monthly,VND,NOT PROVIDED,26,Other
+9.0,Bachelor,Full-stack Developer,500 to 999 employees,Viet Nam,29166667,Monthly,VND,NOT PROVIDED,26,Other
+10.0,High School,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,33333333,Monthly,VND,NOT PROVIDED,40,Other
+14.0,High School,Mobile Developer,Less than 20 employees,Viet Nam,61333333,Monthly,VND,NOT PROVIDED,31,Other
+3.0,High School,Full-stack Developer,Less than 20 employees,Viet Nam,12144000,Monthly,VND,NOT PROVIDED,22,Other
+3.0,High School,Full-stack Developer,Less than 20 employees,Viet Nam,6750000,Monthly,VND,NOT PROVIDED,22,Other
+8.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,25000000,Monthly,VND,NOT PROVIDED,34,Other
+16.0,Bachelor,Full-stack Developer,Less than 20 employees,Viet Nam,60000000,Monthly,VND,NOT PROVIDED,35,Other
+5.0,Bachelor,Mobile Developer,100 to 499 employees,Viet Nam,25000000,Monthly,VND,NOT PROVIDED,18,Other
+17.0,Bachelor,DevOps,Less than 20 employees,Viet Nam,21000000,Monthly,VND,NOT PROVIDED,43,Other
+2.0,Bachelor,Back-end Developer,500 to 999 employees,Viet Nam,12000000,Monthly,VND,NOT PROVIDED,20,Other
+6.0,High School,Full-stack Developer,Less than 20 employees,Viet Nam,6750000,Monthly,VND,NOT PROVIDED,24,Other
+8.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,20833333,Monthly,VND,NOT PROVIDED,27,Other
+7.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,12000000,Monthly,VND,NOT PROVIDED,29,Other
+,Bachelor,Back-end Developer,100 to 499 employees,Viet Nam,40000000,Monthly,VND,NOT PROVIDED,27,Other
+13.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,18000000,Monthly,VND,NOT PROVIDED,19,Other
+7.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,45000000,Monthly,VND,NOT PROVIDED,21,Other
+5.0,High School,Full-stack Developer,500 to 999 employees,Viet Nam,7000000,Monthly,VND,NOT PROVIDED,19,Other
+11.0,Bachelor,Embedded Engineer,10 to 19 employees,Viet Nam,123666667,Monthly,VND,NOT PROVIDED,34,Other
+5.0,Bachelor,DevOps,"10,000 or more employees",Viet Nam,10000000,Monthly,VND,NOT PROVIDED,18,Other
+7.0,High School,Data Scientist,10 to 19 employees,Viet Nam,6750000,Monthly,VND,NOT PROVIDED,24,Other
+3.0,Bachelor,Data Scientist,20 to 99 employees,Viet Nam,2000000,Monthly,VND,NOT PROVIDED,20,Other
+3.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,110208333,Monthly,VND,NOT PROVIDED,43,Other
+5.0,High School,Front-end Developer,20 to 99 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,43,Other
+7.0,Bachelor,Data Scientist,Less than 20 employees,Viet Nam,81600000,Monthly,VND,NOT PROVIDED,33,Other
+6.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,50000000,Monthly,VND,NOT PROVIDED,19,Other
+6.0,Bachelor,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,15000000,Monthly,VND,NOT PROVIDED,29,Other
+4.0,Master,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,16666667,Monthly,VND,NOT PROVIDED,34,Other
+11.0,Bachelor,Embedded Engineer,20 to 99 employees,Viet Nam,45833333,Monthly,VND,NOT PROVIDED,30,Other
+5.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,14080000,Monthly,VND,NOT PROVIDED,23,Other
+6.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,36780000,Monthly,VND,NOT PROVIDED,34,Other
+2.0,Bachelor,Data Scientist,"1,000 to 4,999 employees",Viet Nam,16666667,Monthly,VND,NOT PROVIDED,31,Other
+7.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,110208333,Monthly,VND,NOT PROVIDED,42,Other
+18.0,Master,Mobile Developer,20 to 99 employees,Viet Nam,94250000,Monthly,VND,NOT PROVIDED,42,Other
+5.0,Bachelor,Mobile Developer,20 to 99 employees,Viet Nam,8500000,Monthly,VND,NOT PROVIDED,18,Other
+3.0,High School,Full-stack Developer,"1,000 to 4,999 employees",Viet Nam,26780000,Monthly,VND,NOT PROVIDED,29,Other
+6.0,Bachelor,Full-stack Developer,20 to 99 employees,Viet Nam,21666667,Monthly,VND,NOT PROVIDED,30,Other
+11.0,Bachelor,Embedded Engineer,Less than 20 employees,Viet Nam,36000000,Monthly,VND,NOT PROVIDED,33,Other
+7.0,Bachelor,Back-end Developer,500 to 999 employees,Viet Nam,54166667,Monthly,VND,NOT PROVIDED,31,Other
+5.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,7000000,Monthly,VND,NOT PROVIDED,30,Other
+1.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,8333333,Monthly,VND,NOT PROVIDED,19,Other
+5.0,High School,Full-stack Developer,100 to 499 employees,Viet Nam,18333333,Monthly,VND,NOT PROVIDED,24,Other
+5.0,Bachelor,Data Scientist,100 to 499 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,21,Other
+7.0,Bachelor,Back-end Developer,Less than 20 employees,Viet Nam,52800000,Monthly,VND,NOT PROVIDED,29,Other
+25.0,Master,Full-stack Developer,10 to 19 employees,Viet Nam,35138889,Monthly,VND,NOT PROVIDED,48,Other
+7.0,Bachelor,Back-end Developer,10 to 19 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,27,Other
+7.0,Bachelor,Back-end Developer,20 to 99 employees,Viet Nam,20000000,Monthly,VND,NOT PROVIDED,29,Other
+15.0,Bachelor,Full-stack Developer,10 to 19 employees,Viet Nam,73920000,Monthly,VND,NOT PROVIDED,35,Other
+1.0,Master,DevOps,"10,000 or more employees",Viet Nam,50600000,Monthly,VND,NOT PROVIDED,25,Other
+44.0,High School,Full-stack Developer,10 to 19 employees,Viet Nam,159722222,Monthly,VND,NOT PROVIDED,68,Other
+2.0,High School,Data Scientist,10 to 19 employees,Viet Nam,10000000,Monthly,VND,NOT PROVIDED,57,Other
