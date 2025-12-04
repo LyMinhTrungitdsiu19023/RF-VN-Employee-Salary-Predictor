@@ -467,7 +467,6 @@ GENDERS = ['Male', 'Female', 'Other']
 
 #### Currency Settings
 ```python
-RATE_INR_TO_VND = 280        # Conversion rate
 CURRENCY_SYMBOL_VND = '₫'    # Display symbol
 ```
 
