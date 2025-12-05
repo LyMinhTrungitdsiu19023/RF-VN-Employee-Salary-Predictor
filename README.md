@@ -609,16 +609,9 @@ Intelligence System Course
 
 ## Contributors
 
-- **Ly Minh Trung** - Lead Developer & Data Scientist
-  - Email: itdsiu19023@student.hcmut.edu.vn
-  - GitHub: [@LyMinhTrungitdsiu19023](https://github.com/LyMinhTrungitdsiu19023)
-
-## Acknowledgments
-
-- Vietnam National University, Ho Chi Minh City
-- University of Technology Faculty
-- Machine Learning and Intelligence Systems Course
+- **Ly Minh Trung**
+  - Email: trung.lymcs2025@hcmut.edu.vn
 
 ---
 
-For questions, issues, or contributions, please open an issue on GitHub or contact the developers.
+For questions, issues, or contributions, please open an issue on GitHub or contact the developers via email.
